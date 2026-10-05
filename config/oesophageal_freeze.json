@@ -1,0 +1,6 @@
+{
+  "operation": "freeze",
+  "allocations": "../results/esca_allocations/allocations.json",
+  "scope": "../results/esca_scope/scope.json",
+  "output": "../results/esca_freeze"
+}

@@ -1,0 +1,8 @@
+from __future__ import annotations
+
+ACCEPTED_DISEASE_STATUSES = {
+    "EXACT_ID",
+    "EXPLICIT_REPLACEMENT",
+    "EXPLICIT_CROSS_REFERENCE",
+    "ONE_TO_ONE_CANONICAL",
+}

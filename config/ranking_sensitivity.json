@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "fixed_ranking_panel_registry": "data/derived/fixed_ranking_panel_registry.csv",
+    "fixed_ranking_panel_members": "data/derived/fixed_ranking_panel_members.parquet",
+    "release_native_panel_registry": "data/derived/release_native_panel_registry.csv",
+    "release_native_panel_members": "data/derived/release_native_panel_members.parquet",
+    "entrant_exit_table": "data/derived/entrant_exit_table.parquet",
+    "therapeutic_area_mapping": "data/derived/therapeutic_area_mapping.csv"
+  },
+  "input_contract": {
+    "fixed_ranking_panel_registry": [
+      "support_name",
+      "release_pair",
+      "canonical_disease_id",
+      "canonical_label",
+      "canonical_therapeutic_area_ids",
+      "fixed_target_count",
+      "old_distinct_score_count",
+      "new_distinct_score_count",
+      "eligible_min_20",
+      "eligible_primary_30",
+      "eligible_min_50",
+      "primary_panel_eligible",
+      "stable_fixed_target_count",
+      "stable_old_distinct_score_count",
+      "stable_new_distinct_score_count",
+      "stable_panel_eligible",
+      "exclusion_reason"
+    ],
+    "fixed_ranking_panel_members": [
+      "support_name",
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "old_score",
+      "new_score",
+      "old_evidence_count",
+      "new_evidence_count",
+      "stable_entity_member",
+      "canonical_therapeutic_area_ids"
+    ],
+    "release_native_panel_registry": [
+      "release",
+      "canonical_disease_id",
+      "canonical_label",
+      "canonical_therapeutic_area_ids",
+      "native_target_count",
+      "distinct_score_count",
+      "stable_native_target_count",
+      "release_native_panel_eligible",
+      "top_5_estimable",
+      "top_10_estimable",
+      "top_20_estimable"
+    ],
+    "release_native_panel_members": [
+      "release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score",
+      "evidence_count",
+      "stable_entity_member",
+      "canonical_therapeutic_area_ids"
+    ],
+    "entrant_exit_table": [
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "old_score",
+      "new_score",
+      "old_state",
+      "new_state",
+      "old_primary_eligible",
+      "new_primary_eligible",
+      "raw_identifier_mapping_affected",
+      "transition_class",
+      "record_category"
+    ],
+    "therapeutic_area_mapping": [
+      "release",
+      "canonical_disease_id",
+      "canonical_therapeutic_area_id",
+      "canonical_therapeutic_area_label",
+      "therapeutic_area_stability",
+      "primary_area_contrast_eligible",
+      "fractional_weight"
+    ]
+  },
+  "release_pairs": [
+    {
+      "label": "25.12_to_26.03",
+      "old_release": "25.12",
+      "new_release": "26.03"
+    },
+    {
+      "label": "26.03_to_26.06",
+      "old_release": "26.03",
+      "new_release": "26.06"
+    }
+  ],
+  "fixed_support": {
+    "support_name": "PAIR_SPECIFIC_PERSISTENT",
+    "primary_minimum_targets": 30,
+    "sensitivity_minimum_targets": [
+      20,
+      50
+    ],
+    "minimum_distinct_scores_per_release": 2,
+    "rank_method": "average_for_exact_ties",
+    "agreement": "Kendall_tau_b",
+    "normalised_rank_displacement": "absolute_rank_difference_divided_by_panel_size_minus_one",
+    "primary_population": "primary_fixed_panels",
+    "stable_entity_status": "reported_when_prespecified_support_construction_support_is_eligible"
+  },
+  "top_sets": {
+    "cutoffs": [
+      5,
+      10,
+      20
+    ],
+    "boundary_ties": "include_all",
+    "top_ranked_set": "include_all_equal_maximum_scores",
+    "minimum_positive_score": 0.0,
+    "turnover_reason_classes": [
+      "UNCHANGED",
+      "PERSISTENT_PAIR_RERANKING",
+      "ENTRANT",
+      "EXIT",
+      "MAPPING_AFFECTED",
+      "MIXED",
+      "UNRESOLVED"
+    ],
+    "interpretation": "descriptive_not_causal"
+  },
+  "native_population": {
+    "primary_denominator": "primary_fixed_disease_panels_with_both_release_native_panels_estimable",
+    "supplementary_denominator": "all_release_native_disease_panels_estimable_in_both_releases",
+    "keep_denominators_separate": true
+  },
+  "therapeutic_areas": {
+    "reference_release": "old_release",
+    "stability_value": "STABLE",
+    "primary_area_contrast_eligible": true,
+    "fractional_counting": true,
+    "weighted_quantile_method": "inverted_empirical_cdf",
+    "stable_area_status": "STABLE_FRACTIONAL_PRIMARY",
+    "unstable_area_status": "UNSTABLE",
+    "not_comparable_area_status": "NOT_COMPARABLE",
+    "no_explicit_mapping_area_status": "NO_EXPLICIT_MAPPING",
+    "fractional_weight_tolerance": 1e-09,
+    "minimum_stable_area_panels_per_pair": 1,
+    "well_populated_minimum_panels": 20,
+    "heterogeneity_minimum_well_populated_areas": 5,
+    "heterogeneity_fraction_range": 0.1,
+    "heterogeneity_minimum_changed_panels_in_two_areas": 3,
+    "small_area_status": "descriptive_only"
+  },
+  "signal_assessment": {
+    "logic": "at_least_one",
+    "changed_tie_aware_top_ranked_set_fraction": 0.05,
+    "native_top_10_jaccard_below": 0.9,
+    "native_top_10_low_overlap_fraction": 0.1,
+    "fixed_panel_p90_normalised_displacement_at_least": 0.1,
+    "fixed_panel_high_displacement_fraction": 0.1,
+    "therapeutic_area_heterogeneity": "use_frozen_therapeutic_area_rule",
+    "mapping_only_changes_excluded_from_primary_changed_top_ranked_numerator": true
+  },
+  "resources": {
+    "threads": 8,
+    "export_threads": 1,
+    "bulk_insert_batch_rows": 50000,
+    "memory_limit": "8GB",
+    "maximum_temp_directory_size": "60GB",
+    "minimum_free_gib": 20,
+    "duckdb_temp_subdirectory": "duckdb_temp"
+  },
+  "outputs": {
+    "disease_ranking_panels": "data/derived/disease_ranking_panels.csv",
+    "fixed_target_rank_displacement": "data/derived/ranking_sensitivity_fixed_target_rank_displacement.parquet",
+    "fixed_ranking_metrics": "data/derived/ranking_sensitivity_fixed_ranking_metrics.csv",
+    "release_native_top_set_metrics": "data/derived/ranking_sensitivity_release_native_top_set_metrics.csv",
+    "top_set_members": "data/derived/ranking_sensitivity_top_set_members.parquet",
+    "top_ranked_target_sets": "data/derived/ranking_sensitivity_top_ranked_target_sets.csv",
+    "turnover_reason_decomposition": "data/derived/ranking_sensitivity_turnover_reason_decomposition.csv",
+    "therapeutic_area_ranking_summary": "data/derived/ranking_sensitivity_therapeutic_area_ranking_summary.csv",
+    "sensitivity_signal_assessment": "data/derived/ranking_sensitivity_sensitivity_signal_assessment.csv"
+  },
+  "determinism": {
+    "ordered_exports": true
+  }
+}

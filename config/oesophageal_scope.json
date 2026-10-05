@@ -1,0 +1,7 @@
+{
+  "operation": "scope",
+  "sources": "oesophageal_sources.json",
+  "allocations": "../results/esca_allocations/allocations.json",
+  "crosswalk": "../results/esca_inputs/gene_crosswalk.json",
+  "output": "../results/esca_scope"
+}

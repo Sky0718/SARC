@@ -1,0 +1,8 @@
+{
+  "operation": "category-sensitivity",
+  "context": "CRC",
+  "model_levels": "../results/crc_categories/model_category_levels.csv",
+  "donor_order": "../results/crc_draw_plan/donor_order.json",
+  "draws": "../results/crc_draw_plan/draw_indices.json",
+  "output": "../results/crc_category_sensitivity"
+}

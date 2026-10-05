@@ -1,0 +1,11 @@
+{
+  "operation": "rank",
+  "inputs": {
+    "models": "../results/crc_models.json",
+    "allocations": {
+      "paths": ["../results/crc_prodigy_allocations.json", "../results/crc_precision/allocations.json"]
+    },
+    "labels": "../data/crc/selected_labels.json"
+  },
+  "output": "../results/crc_rank_diagnostics.json"
+}

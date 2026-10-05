@@ -1,0 +1,6 @@
+{
+  "operation": "offered-budget",
+  "inputs": {"data": "../data/functional/eight_model_readout.json"},
+  "options": {"name": "eight"},
+  "output": "../results/eight_model_offered_budget.json"
+}

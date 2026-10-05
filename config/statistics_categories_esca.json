@@ -1,0 +1,8 @@
+{
+  "operation": "category-summary",
+  "context": "ESCA",
+  "allocations": "../results/esca_allocations/allocations.json",
+  "labels": ["../results/esca_evaluation/selected_labels.json"],
+  "categories": "../results/esca_scope/scope.json",
+  "output": "../results/esca_categories"
+}

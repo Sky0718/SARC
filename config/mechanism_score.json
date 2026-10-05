@@ -1,0 +1,6 @@
+{
+  "operation": "score_reference",
+  "scores_directory": "../results/precision_components",
+  "categories": "../data/crc/categories.json",
+  "output": "../results/component_score_reference"
+}

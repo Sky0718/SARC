@@ -1,0 +1,10 @@
+{
+  "operation": "paired-updates",
+  "degree_allocations": "../results/crc_precision/degree_allocations.json",
+  "allocations": [
+    {"method": "PRODIGY", "path": "../results/crc_prodigy_allocations.json"},
+    {"method": "DawnRank", "path": "../results/crc_precision/allocations.json"}
+  ],
+  "labels": ["../data/crc/selected_labels.json"],
+  "output": "../results/crc_paired_updates"
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "three_release_score_support": "data/derived/three_release_score_support.parquet",
+    "association_state_transitions": "data/derived/association_state_transitions.parquet",
+    "entrant_exit_table": "data/derived/entrant_exit_table.parquet",
+    "therapeutic_area_mapping": "data/derived/therapeutic_area_mapping.csv",
+    "release_native_panel_members": "data/derived/release_native_panel_members.parquet",
+    "evidence_domain_support": "data/derived/evidence_domain_support.parquet"
+  },
+  "input_contract": {
+    "three_release_score_support": [
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score_25_12",
+      "score_26_03",
+      "score_26_06",
+      "evidence_count_25_12",
+      "evidence_count_26_03",
+      "evidence_count_26_06",
+      "stable_entity_eligible",
+      "canonical_therapeutic_area_ids"
+    ],
+    "association_state_transitions": [
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "old_score",
+      "new_score",
+      "old_evidence_count",
+      "new_evidence_count",
+      "old_state",
+      "new_state",
+      "old_primary_eligible",
+      "new_primary_eligible",
+      "raw_identifier_mapping_affected",
+      "transition_class",
+      "stable_entity_eligible"
+    ],
+    "entrant_exit_table": [
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "old_score",
+      "new_score",
+      "old_evidence_count",
+      "new_evidence_count",
+      "old_state",
+      "new_state",
+      "old_primary_eligible",
+      "new_primary_eligible",
+      "raw_identifier_mapping_affected",
+      "transition_class",
+      "stable_entity_eligible",
+      "record_category",
+      "old_release_native_member",
+      "new_release_native_member",
+      "rank_context_source"
+    ],
+    "therapeutic_area_mapping": [
+      "release",
+      "canonical_disease_id",
+      "canonical_therapeutic_area_id",
+      "canonical_therapeutic_area_label",
+      "therapeutic_area_stability",
+      "primary_area_contrast_eligible",
+      "fractional_weight"
+    ],
+    "release_native_panel_members": [
+      "release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score",
+      "evidence_count",
+      "stable_entity_member",
+      "canonical_therapeutic_area_ids"
+    ],
+    "evidence_domain_support": [
+      "endpoint_level",
+      "endpoint_id",
+      "release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score",
+      "evidence_count",
+      "association_state",
+      "domain_support_eligible",
+      "stable_entity_eligible",
+      "canonical_therapeutic_area_ids",
+      "score_source_dataset",
+      "source_object_relative_path"
+    ]
+  },
+  "release_pairs": [
+    {
+      "label": "25.12_to_26.03",
+      "old_release": "25.12",
+      "new_release": "26.03",
+      "old_score_field": "score_25_12",
+      "new_score_field": "score_26_03",
+      "old_evidence_count_field": "evidence_count_25_12",
+      "new_evidence_count_field": "evidence_count_26_03"
+    },
+    {
+      "label": "26.03_to_26.06",
+      "old_release": "26.03",
+      "new_release": "26.06",
+      "old_score_field": "score_26_03",
+      "new_score_field": "score_26_06",
+      "old_evidence_count_field": "evidence_count_26_03",
+      "new_evidence_count_field": "evidence_count_26_06"
+    }
+  ],
+  "supports": {
+    "primary": "three_release_primary",
+    "pair_specific_sensitivity": "pair_specific_sensitivity"
+  },
+  "scores": {
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "primary_requires_positive": true,
+    "descriptive_tolerance": 1e-12,
+    "quantile_method": "linear",
+    "quantiles": [
+      0.5,
+      0.75,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "absolute_change_cut_points": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "large_change_threshold": 0.05
+  },
+  "implementation_scale_diagnostic": {
+    "release_pair": "25.12_to_26.03",
+    "old_release": "25.12",
+    "new_release": "26.03",
+    "old_score_multiplier": 1.0012041817620156,
+    "calibrated_old_score_rule": "score_old_multiplied_without_clipping",
+    "primary_score_remains_raw_release_native": true,
+    "evidence_count_statuses": [
+      "unchanged",
+      "changed",
+      "missing"
+    ],
+    "quantiles": [
+      0.5,
+      0.9,
+      0.99
+    ],
+    "interpretation": "implementation_diagnostic_not_alternative_primary_estimand"
+  },
+  "mapping_contexts": [
+    "canonical_identifier_stable",
+    "raw_identifier_mapping_affected"
+  ],
+  "score_tiers": [
+    {
+      "label": "score_gt_0_le_0_05",
+      "lower": 0.0,
+      "upper": 0.05,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    {
+      "label": "score_gt_0_05_le_0_20",
+      "lower": 0.05,
+      "upper": 0.2,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    {
+      "label": "score_gt_0_20_le_0_50",
+      "lower": 0.2,
+      "upper": 0.5,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    {
+      "label": "score_gt_0_50_le_0_75",
+      "lower": 0.5,
+      "upper": 0.75,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    {
+      "label": "score_gt_0_75_le_1_00",
+      "lower": 0.75,
+      "upper": 1.0,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    }
+  ],
+  "therapeutic_areas": {
+    "stability_value": "STABLE",
+    "fractional_counting": true,
+    "weighted_quantile_method": "inverted_empirical_cdf",
+    "minimum_unique_diseases_for_comparison": 20,
+    "small_area_status": "descriptive_only"
+  },
+  "concentration": {
+    "dominant_unit_tie_break": "descending_large_change_count_then_canonical_identifier",
+    "leave_one_out_unit": "dominant_large_change_contributor",
+    "large_change_threshold": 0.05
+  },
+  "trajectories": {
+    "stable_tolerance": 1e-12,
+    "categories": [
+      "stable-stable",
+      "increase-increase",
+      "decrease-decrease",
+      "increase-decrease",
+      "decrease-increase",
+      "one-stable-one-changing"
+    ]
+  },
+  "entrant_exit_context": {
+    "entrant_class": "ENTRANT",
+    "exit_class": "EXIT",
+    "mapping_affected_class": "MAPPING_AFFECTED",
+    "present_zero_context_class": "PRESENT_ZERO_CONTEXT",
+    "present_null_context_class": "PRESENT_NULL_CONTEXT",
+    "schema_incomparable_context_class": "SCHEMA_INCOMPARABLE_CONTEXT",
+    "remaining_other_context_class": "OTHER_NON_PRIMARY_TRANSITION",
+    "high_rank_cutoff": 10,
+    "missing_rank_context_status": "provisional_not_interpreted"
+  },
+  "evidence_domain_context": {
+    "selected_endpoints": [
+      {
+        "endpoint_level": "datatype",
+        "endpoint_id": "genetic_association",
+        "role": "selected_evidence_domain"
+      },
+      {
+        "endpoint_level": "datasource",
+        "endpoint_id": "gwas_credible_sets",
+        "role": "selected_source_decomposition"
+      }
+    ],
+    "endpoint_level_aliases": {
+      "datatype": [
+        "datatype",
+        "datatypeid"
+      ],
+      "datasource": [
+        "datasource",
+        "datasourceid"
+      ]
+    },
+    "large_change_threshold": 0.05,
+    "eligible_association_states": [
+      "PRESENT_POSITIVE",
+      "PRESENT_ZERO"
+    ],
+    "interpretation": "descriptive_co_occurrence_not_causal_attribution"
+  },
+  "provenance": {
+    "required_releases": [
+      "25.12",
+      "26.03",
+      "26.06"
+    ],
+    "required_datasets": [
+      "association_overall_direct",
+      "association_by_datatype_direct",
+      "association_by_datasource_direct",
+      "disease",
+      "target"
+    ]
+  },
+  "resources": {
+    "threads": 8,
+    "export_threads": 1,
+    "memory_limit": "8GB",
+    "maximum_temp_directory_size": "60GB",
+    "minimum_free_gib": 20,
+    "duckdb_temp_subdirectory": "duckdb_temp"
+  },
+  "outputs": {
+    "pair_score_revisions": "data/derived/score_revision_pair_score_revisions.parquet",
+    "score_summary": "data/derived/score_revision_score_summary.csv",
+    "implementation_scale_diagnostic": "data/derived/score_revision_implementation_scale_diagnostic.csv",
+    "score_tier_summary": "data/derived/score_revision_score_tier_summary.csv",
+    "score_tier_area_distribution": "data/derived/score_revision_score_tier_therapeutic_area_distribution.csv",
+    "therapeutic_area_summary": "data/derived/score_revision_therapeutic_area_score_summary.csv",
+    "concentration_diagnostics": "data/derived/score_revision_concentration_diagnostics.csv",
+    "entrant_exit_summary": "data/derived/score_revision_entrant_exit_summary.csv",
+    "evidence_domain_tail_context": "data/derived/score_revision_evidence_domain_tail_context.csv",
+    "trajectory_table": "data/derived/score_revision_three_release_trajectories.csv"
+  },
+  "determinism": {
+    "ordered_exports": true
+  }
+}

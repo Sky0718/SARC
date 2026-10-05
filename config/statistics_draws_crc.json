@@ -1,0 +1,5 @@
+{
+  "operation": "colorectal-draws",
+  "donor_order": "../data/crc/models.json",
+  "output": "../results/crc_draw_plan"
+}

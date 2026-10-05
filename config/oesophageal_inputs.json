@@ -1,0 +1,6 @@
+{
+  "operation": "inputs",
+  "sources": "oesophageal_sources.json",
+  "mutation_rule": "oesophageal_mutation_rule.json",
+  "output": "../results/esca_inputs"
+}

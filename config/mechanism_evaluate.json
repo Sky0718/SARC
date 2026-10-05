@@ -1,0 +1,7 @@
+{
+  "operation": "evaluate",
+  "frozen_directory": "../results/component_freeze",
+  "labels": "../data/crc/component_selected_labels.json",
+  "categories": "../data/crc/categories.json",
+  "output": "../results/component_functional"
+}

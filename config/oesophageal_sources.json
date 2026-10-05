@@ -1,0 +1,2103 @@
+{
+  "models": [
+    {
+      "sample_id": "HCM-SANG-0289-C15",
+      "model_id": "SIDM01285",
+      "donor_id": "2111470",
+      "cmp_patient_id": "SIDP01118"
+    },
+    {
+      "sample_id": "WTSI-OESO_005",
+      "model_id": "SIDM01287",
+      "donor_id": "2111471",
+      "cmp_patient_id": "SIDP01120"
+    },
+    {
+      "sample_id": "HCM-SANG-0291-C15",
+      "model_id": "SIDM01269",
+      "donor_id": "2111473",
+      "cmp_patient_id": "SIDP01080"
+    },
+    {
+      "sample_id": "HCM-SANG-0295-C15",
+      "model_id": "SIDM01270",
+      "donor_id": "2114143",
+      "cmp_patient_id": "SIDP01081"
+    },
+    {
+      "sample_id": "HCM-SANG-0297-C15",
+      "model_id": "SIDM01271",
+      "donor_id": "2117962",
+      "cmp_patient_id": "SIDP01082"
+    },
+    {
+      "sample_id": "HCM-SANG-0298-C15",
+      "model_id": "SIDM01275",
+      "donor_id": "2114337",
+      "cmp_patient_id": "SIDP01108"
+    },
+    {
+      "sample_id": "HCM-SANG-0299-C15-A",
+      "model_id": "SIDM01310",
+      "donor_id": "2117880",
+      "cmp_patient_id": "SIDP01099"
+    },
+    {
+      "sample_id": "HCM-SANG-1322-C15",
+      "model_id": "SIDM02076",
+      "donor_id": "2114334",
+      "cmp_patient_id": "SIDP01833"
+    },
+    {
+      "sample_id": "HCM-SANG-0300-C15",
+      "model_id": "SIDM01289",
+      "donor_id": "2127580",
+      "cmp_patient_id": "SIDP01122"
+    },
+    {
+      "sample_id": "HCM-SANG-0302-C15",
+      "model_id": "SIDM01286",
+      "donor_id": "2127583",
+      "cmp_patient_id": "SIDP01119"
+    },
+    {
+      "sample_id": "HCM-SANG-0303-C15",
+      "model_id": "SIDM01296",
+      "donor_id": "2140192",
+      "cmp_patient_id": "SIDP01085"
+    },
+    {
+      "sample_id": "HCM-SANG-0304-C15",
+      "model_id": "SIDM01303",
+      "donor_id": "2131104",
+      "cmp_patient_id": "SIDP01103"
+    },
+    {
+      "sample_id": "HCM-SANG-0299-C15-B",
+      "model_id": "SIDM01311",
+      "donor_id": "2117880",
+      "cmp_patient_id": "SIDP01099"
+    },
+    {
+      "sample_id": "HCM-SANG-0306-C15",
+      "model_id": "SIDM01283",
+      "donor_id": "2117338",
+      "cmp_patient_id": "SIDP01116"
+    },
+    {
+      "sample_id": "HCM-SANG-0307-C15",
+      "model_id": "SIDM01277",
+      "donor_id": "2133174",
+      "cmp_patient_id": "SIDP01110"
+    },
+    {
+      "sample_id": "HCM-SANG-0308-C15",
+      "model_id": "SIDM01298",
+      "donor_id": "2115416",
+      "cmp_patient_id": "SIDP01087"
+    },
+    {
+      "sample_id": "HCM-SANG-0309-C15",
+      "model_id": "SIDM01312",
+      "donor_id": "2131446",
+      "cmp_patient_id": "SIDP01101"
+    },
+    {
+      "sample_id": "HCM-SANG-0310-C15",
+      "model_id": "SIDM01280",
+      "donor_id": "2133208",
+      "cmp_patient_id": "SIDP01113"
+    },
+    {
+      "sample_id": "HCM-SANG-0530-C15",
+      "model_id": "SIDM02010",
+      "donor_id": "2133209",
+      "cmp_patient_id": "SIDP01789"
+    },
+    {
+      "sample_id": "HCM-SANG-0313-C15",
+      "model_id": "SIDM01302",
+      "donor_id": "2135566",
+      "cmp_patient_id": "SIDP01091"
+    },
+    {
+      "sample_id": "HCM-SANG-0314-C15",
+      "model_id": "SIDM01274",
+      "donor_id": "2133169",
+      "cmp_patient_id": "SIDP01107"
+    },
+    {
+      "sample_id": "HCM-SANG-0549-C15",
+      "model_id": "SIDM01958",
+      "donor_id": "2142134",
+      "cmp_patient_id": "SIDP01714"
+    },
+    {
+      "sample_id": "HCM-SANG-0523-C15",
+      "model_id": "SIDM01949",
+      "donor_id": "2143746",
+      "cmp_patient_id": "SIDP01722"
+    },
+    {
+      "sample_id": "HCM-SANG-0526-C15",
+      "model_id": "SIDM02031",
+      "donor_id": "2146625",
+      "cmp_patient_id": "SIDP01794"
+    },
+    {
+      "sample_id": "HCM-SANG-0543-C15",
+      "model_id": "SIDM02028",
+      "donor_id": "2156470",
+      "cmp_patient_id": "SIDP01797"
+    },
+    {
+      "sample_id": "HCM-SANG-0546-C15",
+      "model_id": "SIDM01944",
+      "donor_id": "2153421",
+      "cmp_patient_id": "SIDP01727"
+    },
+    {
+      "sample_id": "WTSI-OESO_198",
+      "model_id": "SIDM02024",
+      "donor_id": "2156403",
+      "cmp_patient_id": "SIDP01801"
+    },
+    {
+      "sample_id": "HCM-SANG-1082-C15",
+      "model_id": "SIDM02021",
+      "donor_id": "2156484",
+      "cmp_patient_id": "SIDP01804"
+    },
+    {
+      "sample_id": "HCM-SANG-1094-C16",
+      "model_id": "SIDM02020",
+      "donor_id": "2156411",
+      "cmp_patient_id": "SIDP01805"
+    },
+    {
+      "sample_id": "HCM-SANG-1329-C15",
+      "model_id": "SIDM02040",
+      "donor_id": "2156489",
+      "cmp_patient_id": "SIDP01841"
+    },
+    {
+      "sample_id": "HCM-SANG-1083-C16",
+      "model_id": "SIDM02014",
+      "donor_id": "2158068",
+      "cmp_patient_id": "SIDP01811"
+    },
+    {
+      "sample_id": "WTSI-OESO_227",
+      "model_id": "SIDM02191",
+      "donor_id": "2158580",
+      "cmp_patient_id": "SIDP01992"
+    },
+    {
+      "sample_id": "HCM-SANG-1084-C15",
+      "model_id": "SIDM02036",
+      "donor_id": "2160284",
+      "cmp_patient_id": "SIDP01815"
+    },
+    {
+      "sample_id": "HCM-SANG-1305-C15",
+      "model_id": "SIDM02052",
+      "donor_id": "2164724",
+      "cmp_patient_id": "SIDP01853"
+    },
+    {
+      "sample_id": "HCM-SANG-1310-C15",
+      "model_id": "SIDM02054",
+      "donor_id": "2165958",
+      "cmp_patient_id": "SIDP01855"
+    },
+    {
+      "sample_id": "HCM-SANG-1302-C15",
+      "model_id": "SIDM02058",
+      "donor_id": "2166955",
+      "cmp_patient_id": "SIDP01858"
+    },
+    {
+      "sample_id": "HCM-SANG-1328-C15",
+      "model_id": "SIDM02061",
+      "donor_id": "2167022",
+      "cmp_patient_id": "SIDP01818"
+    },
+    {
+      "sample_id": "HCM-SANG-1323-C15",
+      "model_id": "SIDM02068",
+      "donor_id": "2168894",
+      "cmp_patient_id": "SIDP01825"
+    },
+    {
+      "sample_id": "HCM-SANG-1326-C15",
+      "model_id": "SIDM02074",
+      "donor_id": "2169437",
+      "cmp_patient_id": "SIDP01831"
+    },
+    {
+      "sample_id": "HCM-SANG-1299-C15",
+      "model_id": "SIDM02070",
+      "donor_id": "2169444",
+      "cmp_patient_id": "SIDP01826"
+    },
+    {
+      "sample_id": "WTSI-OESO_274",
+      "model_id": "SIDM02188",
+      "donor_id": "2172252",
+      "cmp_patient_id": "SIDP01994"
+    },
+    {
+      "sample_id": "WTSI-OESO_286",
+      "model_id": "SIDM02187",
+      "donor_id": "2179602",
+      "cmp_patient_id": "SIDP01995"
+    },
+    {
+      "sample_id": "WTSI-OESO_288",
+      "model_id": "SIDM02186",
+      "donor_id": "2179613",
+      "cmp_patient_id": "SIDP01996"
+    },
+    {
+      "sample_id": "HCM-SANG-1325-C15",
+      "model_id": "SIDM02071",
+      "donor_id": "2179740",
+      "cmp_patient_id": "SIDP01828"
+    },
+    {
+      "sample_id": "WTSI-OESO_292",
+      "model_id": "SIDM02185",
+      "donor_id": "2179799",
+      "cmp_patient_id": "SIDP01997"
+    },
+    {
+      "sample_id": "WTSI-OESO_294",
+      "model_id": "SIDM02184",
+      "donor_id": "2180508",
+      "cmp_patient_id": "SIDP01998"
+    },
+    {
+      "sample_id": "WTSI-OESO_304",
+      "model_id": "SIDM02181",
+      "donor_id": "2183523",
+      "cmp_patient_id": "SIDP02001"
+    },
+    {
+      "sample_id": "WTSI-OESO_308",
+      "model_id": "SIDM02190",
+      "donor_id": "2184382",
+      "cmp_patient_id": "SIDP02003"
+    },
+    {
+      "sample_id": "WTSI-OESO_309",
+      "model_id": "SIDM02179",
+      "donor_id": "2184383",
+      "cmp_patient_id": "SIDP02004"
+    },
+    {
+      "sample_id": "WTSI-OESO_314",
+      "model_id": "SIDM02176",
+      "donor_id": "2186474",
+      "cmp_patient_id": "SIDP02006"
+    },
+    {
+      "sample_id": "WTSI-OESO_319",
+      "model_id": "SIDM02175",
+      "donor_id": "2189326",
+      "cmp_patient_id": "SIDP02007"
+    },
+    {
+      "sample_id": "WTSI-OESO_323",
+      "model_id": "SIDM02174",
+      "donor_id": "2193354",
+      "cmp_patient_id": "SIDP02008"
+    },
+    {
+      "sample_id": "WTSI-OESO_324",
+      "model_id": "SIDM02173",
+      "donor_id": "2194473",
+      "cmp_patient_id": "SIDP02009"
+    },
+    {
+      "sample_id": "WTSI-OESO_326",
+      "model_id": "SIDM02172",
+      "donor_id": "2194562",
+      "cmp_patient_id": "SIDP02010"
+    },
+    {
+      "sample_id": "WTSI-OESO_328",
+      "model_id": "SIDM02171",
+      "donor_id": "2194557",
+      "cmp_patient_id": "SIDP02011"
+    },
+    {
+      "sample_id": "WTSI-OESO_339",
+      "model_id": "SIDM02169",
+      "donor_id": "2197760",
+      "cmp_patient_id": "SIDP02013"
+    },
+    {
+      "sample_id": "WTSI-OESO_354",
+      "model_id": "SIDM02168",
+      "donor_id": "2207119",
+      "cmp_patient_id": "SIDP02014"
+    },
+    {
+      "sample_id": "WTSI-OESO_358",
+      "model_id": "SIDM02192",
+      "donor_id": "2207828",
+      "cmp_patient_id": "SIDP02016"
+    },
+    {
+      "sample_id": "WTSI-OESO_361",
+      "model_id": "SIDM02204",
+      "donor_id": "2208559",
+      "cmp_patient_id": "SIDP02017"
+    }
+  ],
+  "vcfs": [
+    {
+      "model_id": "SIDM01269",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01269_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01269_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_009_b",
+        "WTSI-OESO_009_w6"
+      ],
+      "normal_sample": "WTSI-OESO_009_b"
+    },
+    {
+      "model_id": "SIDM01269",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01269_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01269_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_009_b",
+        "WTSI-OESO_009_w6"
+      ],
+      "normal_sample": "WTSI-OESO_009_b"
+    },
+    {
+      "model_id": "SIDM01270",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01270_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01270_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_040_b",
+        "WTSI-OESO_040_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_040_b"
+    },
+    {
+      "model_id": "SIDM01270",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01270_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01270_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_040_b",
+        "WTSI-OESO_040_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_040_b"
+    },
+    {
+      "model_id": "SIDM01271",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01271_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01271_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_088_b",
+        "WTSI-OESO_088_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_088_b"
+    },
+    {
+      "model_id": "SIDM01271",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01271_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01271_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_088_b",
+        "WTSI-OESO_088_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_088_b"
+    },
+    {
+      "model_id": "SIDM01274",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01274_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01274_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_140_b",
+        "WTSI-OESO_167_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_140_b"
+    },
+    {
+      "model_id": "SIDM01274",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01274_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01274_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_140_b",
+        "WTSI-OESO_167_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_140_b"
+    },
+    {
+      "model_id": "SIDM01275",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01275_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01275_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_045_b",
+        "WTSI-OESO_091_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_045_b"
+    },
+    {
+      "model_id": "SIDM01275",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01275_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01275_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_045_b",
+        "WTSI-OESO_091_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_045_b"
+    },
+    {
+      "model_id": "SIDM01277",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01277_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01277_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_143_b",
+        "WTSI-OESO_143_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_143_b"
+    },
+    {
+      "model_id": "SIDM01277",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01277_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01277_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_143_b",
+        "WTSI-OESO_143_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_143_b"
+    },
+    {
+      "model_id": "SIDM01280",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01280_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01280_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_148_b",
+        "WTSI-OESO_148_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_148_b"
+    },
+    {
+      "model_id": "SIDM01280",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01280_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01280_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_148_b",
+        "WTSI-OESO_148_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_148_b"
+    },
+    {
+      "model_id": "SIDM01283",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01283_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01283_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_086_b",
+        "WTSI-OESO_135_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_086_b"
+    },
+    {
+      "model_id": "SIDM01283",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01283_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01283_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_086_b",
+        "WTSI-OESO_135_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_086_b"
+    },
+    {
+      "model_id": "SIDM01285",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01285_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01285_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_003_b",
+        "WTSI-OESO_003_w6"
+      ],
+      "normal_sample": "WTSI-OESO_003_b"
+    },
+    {
+      "model_id": "SIDM01285",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01285_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01285_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_003_b",
+        "WTSI-OESO_003_w6"
+      ],
+      "normal_sample": "WTSI-OESO_003_b"
+    },
+    {
+      "model_id": "SIDM01286",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01286_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01286_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_106_b",
+        "WTSI-OESO_106_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_106_b"
+    },
+    {
+      "model_id": "SIDM01286",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01286_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01286_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_106_b",
+        "WTSI-OESO_106_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_106_b"
+    },
+    {
+      "model_id": "SIDM01287",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01287_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01287_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_005_b",
+        "WTSI-OESO_005_w3"
+      ],
+      "normal_sample": "WTSI-OESO_005_b"
+    },
+    {
+      "model_id": "SIDM01287",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01287_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01287_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_005_b",
+        "WTSI-OESO_005_w3"
+      ],
+      "normal_sample": "WTSI-OESO_005_b"
+    },
+    {
+      "model_id": "SIDM01289",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01289_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01289_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_103_b",
+        "WTSI-OESO_103_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_103_b"
+    },
+    {
+      "model_id": "SIDM01289",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01289_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01289_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_103_b",
+        "WTSI-OESO_103_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_103_b"
+    },
+    {
+      "model_id": "SIDM01296",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01296_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01296_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_121_b",
+        "WTSI-OESO_121_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_121_b"
+    },
+    {
+      "model_id": "SIDM01296",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01296_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01296_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_121_b",
+        "WTSI-OESO_121_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_121_b"
+    },
+    {
+      "model_id": "SIDM01298",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01298_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01298_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_057_b",
+        "WTSI-OESO_144_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_057_b"
+    },
+    {
+      "model_id": "SIDM01298",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01298_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01298_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_057_b",
+        "WTSI-OESO_144_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_057_b"
+    },
+    {
+      "model_id": "SIDM01302",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01302_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01302_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_165_b",
+        "WTSI-OESO_165_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_165_b"
+    },
+    {
+      "model_id": "SIDM01302",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01302_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01302_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_165_b",
+        "WTSI-OESO_165_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_165_b"
+    },
+    {
+      "model_id": "SIDM01303",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01303_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01303_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_130_b",
+        "WTSI-OESO_130_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_130_b"
+    },
+    {
+      "model_id": "SIDM01303",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01303_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01303_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_130_b",
+        "WTSI-OESO_130_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_130_b"
+    },
+    {
+      "model_id": "SIDM01310",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01310_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01310_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_095_b",
+        "WTSI-OESO_095_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_095_b"
+    },
+    {
+      "model_id": "SIDM01310",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01310_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01310_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_095_b",
+        "WTSI-OESO_095_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_095_b"
+    },
+    {
+      "model_id": "SIDM01311",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01311_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01311_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_095_b",
+        "WTSI-OESO_131_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_095_b"
+    },
+    {
+      "model_id": "SIDM01311",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01311_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01311_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_095_b",
+        "WTSI-OESO_131_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_095_b"
+    },
+    {
+      "model_id": "SIDM01312",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01312_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01312_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_146_b",
+        "WTSI-OESO_146_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_146_b"
+    },
+    {
+      "model_id": "SIDM01312",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01312_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01312_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_146_b",
+        "WTSI-OESO_146_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_146_b"
+    },
+    {
+      "model_id": "SIDM01944",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01944_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01944_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_195_b",
+        "WTSI-OESO_195_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_195_b"
+    },
+    {
+      "model_id": "SIDM01944",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01944_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01944_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_195_b",
+        "WTSI-OESO_195_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_195_b"
+    },
+    {
+      "model_id": "SIDM01949",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01949_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01949_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_181_b",
+        "WTSI-OESO_181_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_181_b"
+    },
+    {
+      "model_id": "SIDM01949",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01949_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01949_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_181_b",
+        "WTSI-OESO_181_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_181_b"
+    },
+    {
+      "model_id": "SIDM01958",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM01958_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01958_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_170_b",
+        "WTSI-OESO_170_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_170_b"
+    },
+    {
+      "model_id": "SIDM01958",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM01958_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM01958_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_170_b",
+        "WTSI-OESO_170_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_170_b"
+    },
+    {
+      "model_id": "SIDM02010",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02010_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02010_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_149_b",
+        "WTSI-OESO_149_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_149_b"
+    },
+    {
+      "model_id": "SIDM02010",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02010_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02010_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_149_b",
+        "WTSI-OESO_149_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_149_b"
+    },
+    {
+      "model_id": "SIDM02014",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02014_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02014_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_224_b",
+        "WTSI-OESO_224_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_224_b"
+    },
+    {
+      "model_id": "SIDM02014",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02014_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02014_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_224_b",
+        "WTSI-OESO_224_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_224_b"
+    },
+    {
+      "model_id": "SIDM02020",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02020_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02020_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_211_b",
+        "WTSI-OESO_211_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_211_b"
+    },
+    {
+      "model_id": "SIDM02020",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02020_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02020_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_211_b",
+        "WTSI-OESO_211_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_211_b"
+    },
+    {
+      "model_id": "SIDM02021",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02021_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02021_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_202_b",
+        "WTSI-OESO_202_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_202_b"
+    },
+    {
+      "model_id": "SIDM02021",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02021_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02021_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_202_b",
+        "WTSI-OESO_202_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_202_b"
+    },
+    {
+      "model_id": "SIDM02024",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02024_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02024_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_198_b",
+        "WTSI-OESO_198_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_198_b"
+    },
+    {
+      "model_id": "SIDM02024",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02024_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02024_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_198_b",
+        "WTSI-OESO_198_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_198_b"
+    },
+    {
+      "model_id": "SIDM02028",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02028_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02028_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_191_b",
+        "WTSI-OESO_191_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_191_b"
+    },
+    {
+      "model_id": "SIDM02028",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02028_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02028_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_191_b",
+        "WTSI-OESO_191_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_191_b"
+    },
+    {
+      "model_id": "SIDM02031",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02031_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02031_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_185_b",
+        "WTSI-OESO_185_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_185_b"
+    },
+    {
+      "model_id": "SIDM02031",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02031_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02031_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_185_b",
+        "WTSI-OESO_185_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_185_b"
+    },
+    {
+      "model_id": "SIDM02036",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02036_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02036_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_233_b",
+        "WTSI-OESO_233_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_233_b"
+    },
+    {
+      "model_id": "SIDM02036",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02036_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02036_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_233_b",
+        "WTSI-OESO_233_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_233_b"
+    },
+    {
+      "model_id": "SIDM02040",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02040_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02040_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_223_b",
+        "WTSI-OESO_223_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_223_b"
+    },
+    {
+      "model_id": "SIDM02040",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02040_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02040_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_223_b",
+        "WTSI-OESO_223_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_223_b"
+    },
+    {
+      "model_id": "SIDM02052",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02052_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02052_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_250_b",
+        "WTSI-OESO_250_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_250_b"
+    },
+    {
+      "model_id": "SIDM02052",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02052_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02052_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_250_b",
+        "WTSI-OESO_250_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_250_b"
+    },
+    {
+      "model_id": "SIDM02054",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02054_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02054_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_253_b",
+        "WTSI-OESO_253_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_253_b"
+    },
+    {
+      "model_id": "SIDM02054",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02054_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02054_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_253_b",
+        "WTSI-OESO_253_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_253_b"
+    },
+    {
+      "model_id": "SIDM02058",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02058_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02058_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_257_b",
+        "WTSI-OESO_257_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_257_b"
+    },
+    {
+      "model_id": "SIDM02058",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02058_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02058_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_257_b",
+        "WTSI-OESO_257_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_257_b"
+    },
+    {
+      "model_id": "SIDM02061",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02061_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02061_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_259_b",
+        "WTSI-OESO_259_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_259_b"
+    },
+    {
+      "model_id": "SIDM02061",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02061_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02061_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_259_b",
+        "WTSI-OESO_259_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_259_b"
+    },
+    {
+      "model_id": "SIDM02068",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02068_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02068_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_264_b",
+        "WTSI-OESO_264_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_264_b"
+    },
+    {
+      "model_id": "SIDM02068",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02068_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02068_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_264_b",
+        "WTSI-OESO_264_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_264_b"
+    },
+    {
+      "model_id": "SIDM02070",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02070_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02070_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_269_b",
+        "WTSI-OESO_269_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_269_b"
+    },
+    {
+      "model_id": "SIDM02070",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02070_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02070_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_269_b",
+        "WTSI-OESO_269_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_269_b"
+    },
+    {
+      "model_id": "SIDM02071",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02071_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02071_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_291_b",
+        "WTSI-OESO_291_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_291_b"
+    },
+    {
+      "model_id": "SIDM02071",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02071_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02071_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_291_b",
+        "WTSI-OESO_291_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_291_b"
+    },
+    {
+      "model_id": "SIDM02074",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02074_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02074_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_268_b",
+        "WTSI-OESO_268_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_268_b"
+    },
+    {
+      "model_id": "SIDM02074",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02074_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02074_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_268_b",
+        "WTSI-OESO_268_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_268_b"
+    },
+    {
+      "model_id": "SIDM02076",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02076_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02076_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_046_b",
+        "WTSI-OESO_097_1preB2"
+      ],
+      "normal_sample": "WTSI-OESO_046_b"
+    },
+    {
+      "model_id": "SIDM02076",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02076_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02076_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_046_b",
+        "WTSI-OESO_097_1preB2"
+      ],
+      "normal_sample": "WTSI-OESO_046_b"
+    },
+    {
+      "model_id": "SIDM02168",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02168_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02168_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_354_b",
+        "WTSI-OESO_354_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_354_b"
+    },
+    {
+      "model_id": "SIDM02168",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02168_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02168_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_354_b",
+        "WTSI-OESO_354_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_354_b"
+    },
+    {
+      "model_id": "SIDM02169",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02169_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02169_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_339_b",
+        "WTSI-OESO_339_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_339_b"
+    },
+    {
+      "model_id": "SIDM02169",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02169_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02169_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_339_b",
+        "WTSI-OESO_339_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_339_b"
+    },
+    {
+      "model_id": "SIDM02171",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02171_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02171_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_328_b",
+        "WTSI-OESO_328_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_328_b"
+    },
+    {
+      "model_id": "SIDM02171",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02171_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02171_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_328_b",
+        "WTSI-OESO_328_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_328_b"
+    },
+    {
+      "model_id": "SIDM02172",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02172_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02172_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_326_b",
+        "WTSI-OESO_326_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_326_b"
+    },
+    {
+      "model_id": "SIDM02172",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02172_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02172_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_326_b",
+        "WTSI-OESO_326_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_326_b"
+    },
+    {
+      "model_id": "SIDM02173",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02173_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02173_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_324_b",
+        "WTSI-OESO_324_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_324_b"
+    },
+    {
+      "model_id": "SIDM02173",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02173_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02173_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_324_b",
+        "WTSI-OESO_324_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_324_b"
+    },
+    {
+      "model_id": "SIDM02174",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02174_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02174_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_323_b",
+        "WTSI-OESO_323_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_323_b"
+    },
+    {
+      "model_id": "SIDM02174",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02174_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02174_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_323_b",
+        "WTSI-OESO_323_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_323_b"
+    },
+    {
+      "model_id": "SIDM02175",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02175_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02175_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_319_b",
+        "WTSI-OESO_319_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_319_b"
+    },
+    {
+      "model_id": "SIDM02175",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02175_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02175_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_319_b",
+        "WTSI-OESO_319_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_319_b"
+    },
+    {
+      "model_id": "SIDM02176",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02176_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02176_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_314_b",
+        "WTSI-OESO_314_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_314_b"
+    },
+    {
+      "model_id": "SIDM02176",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02176_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02176_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_314_b",
+        "WTSI-OESO_314_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_314_b"
+    },
+    {
+      "model_id": "SIDM02179",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02179_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02179_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_309_b",
+        "WTSI-OESO_309_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_309_b"
+    },
+    {
+      "model_id": "SIDM02179",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02179_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02179_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_309_b",
+        "WTSI-OESO_309_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_309_b"
+    },
+    {
+      "model_id": "SIDM02181",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02181_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02181_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_304_b",
+        "WTSI-OESO_304_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_304_b"
+    },
+    {
+      "model_id": "SIDM02181",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02181_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02181_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_304_b",
+        "WTSI-OESO_304_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_304_b"
+    },
+    {
+      "model_id": "SIDM02184",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02184_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02184_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_294_b",
+        "WTSI-OESO_294_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_294_b"
+    },
+    {
+      "model_id": "SIDM02184",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02184_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02184_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_294_b",
+        "WTSI-OESO_294_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_294_b"
+    },
+    {
+      "model_id": "SIDM02185",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02185_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02185_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_292_b",
+        "WTSI-OESO_292_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_292_b"
+    },
+    {
+      "model_id": "SIDM02185",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02185_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02185_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_292_b",
+        "WTSI-OESO_292_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_292_b"
+    },
+    {
+      "model_id": "SIDM02186",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02186_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02186_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_288_b",
+        "WTSI-OESO_288_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_288_b"
+    },
+    {
+      "model_id": "SIDM02186",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02186_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02186_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_288_b",
+        "WTSI-OESO_288_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_288_b"
+    },
+    {
+      "model_id": "SIDM02187",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02187_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02187_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_286_b",
+        "WTSI-OESO_286_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_286_b"
+    },
+    {
+      "model_id": "SIDM02187",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02187_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02187_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_286_b",
+        "WTSI-OESO_286_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_286_b"
+    },
+    {
+      "model_id": "SIDM02188",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02188_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02188_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_274_b",
+        "WTSI-OESO_274_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_274_b"
+    },
+    {
+      "model_id": "SIDM02188",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02188_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02188_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_274_b",
+        "WTSI-OESO_274_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_274_b"
+    },
+    {
+      "model_id": "SIDM02190",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02190_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02190_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_308_b",
+        "WTSI-OESO_308_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_308_b"
+    },
+    {
+      "model_id": "SIDM02190",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02190_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02190_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_308_b",
+        "WTSI-OESO_308_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_308_b"
+    },
+    {
+      "model_id": "SIDM02191",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02191_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02191_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_227_b",
+        "WTSI-OESO_227_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_227_b"
+    },
+    {
+      "model_id": "SIDM02191",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02191_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02191_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_227_b",
+        "WTSI-OESO_227_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_227_b"
+    },
+    {
+      "model_id": "SIDM02192",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02192_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02192_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_358_b",
+        "WTSI-OESO_358_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_358_b"
+    },
+    {
+      "model_id": "SIDM02192",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02192_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02192_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_358_b",
+        "WTSI-OESO_358_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_358_b"
+    },
+    {
+      "model_id": "SIDM02204",
+      "kind": "snp",
+      "path": "../data/oesophageal/vcf/SIDM02204_Sanger_wgs.snp.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02204_Sanger_wgs.snp.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_361_b",
+        "WTSI-OESO_361_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_361_b"
+    },
+    {
+      "model_id": "SIDM02204",
+      "kind": "indel",
+      "path": "../data/oesophageal/vcf/SIDM02204_Sanger_wgs.indel.vcf.gz",
+      "url": "https://cog.sanger.ac.uk/cmp/data/SIDM02204_Sanger_wgs.indel.vcf.gz",
+      "sample_columns": [
+        "WTSI-OESO_361_b",
+        "WTSI-OESO_361_1pre"
+      ],
+      "normal_sample": "WTSI-OESO_361_b"
+    }
+  ],
+  "normal_samples": [
+    "GTEX-111CU-0826-SM-5EGIJ",
+    "GTEX-111YS-0826-SM-5GZYK",
+    "GTEX-1122O-1826-SM-5EGIP",
+    "GTEX-113JC-1026-SM-5H117",
+    "GTEX-1192X-1826-SM-5GIE2",
+    "GTEX-11DXX-1226-SM-5GICD",
+    "GTEX-11DXY-1326-SM-5987Z",
+    "GTEX-11DXZ-1026-SM-5N9D5",
+    "GTEX-11DYG-1926-SM-5H12I",
+    "GTEX-11EM3-0926-SM-5A5KK",
+    "GTEX-11EQ9-0926-SM-5HL6I",
+    "GTEX-11LCK-1526-SM-5HL64",
+    "GTEX-11NUK-1726-SM-5A5L2",
+    "GTEX-11O72-2026-SM-5N9G8",
+    "GTEX-11OF3-2326-SM-5GU73",
+    "GTEX-11P7K-1426-SM-5EGKY",
+    "GTEX-11P81-1026-SM-5GU54",
+    "GTEX-11P82-0426-SM-5HL5D",
+    "GTEX-11TT1-0626-SM-5GU4X",
+    "GTEX-11UD2-1526-SM-5EQLQ",
+    "GTEX-11VI4-0826-SM-5GU5N",
+    "GTEX-11WQK-2226-SM-5CVL7",
+    "GTEX-11XUK-0926-SM-5EQL3",
+    "GTEX-11ZTS-2726-SM-5EQLU",
+    "GTEX-11ZTT-1126-SM-GIN9D",
+    "GTEX-1211K-1326-SM-5FQV2",
+    "GTEX-12696-1526-SM-5EGL6",
+    "GTEX-12BJ1-1526-SM-5LUAQ",
+    "GTEX-12C56-0426-SM-5FQU1",
+    "GTEX-12WSD-2026-SM-5HL7D",
+    "GTEX-12WSG-1826-SM-GI4WF",
+    "GTEX-12WSJ-0826-SM-5PNWV",
+    "GTEX-12WSK-1326-SM-5CVNM",
+    "GTEX-12WSL-1226-SM-5DUXE",
+    "GTEX-12WSN-1826-SM-5LZUT",
+    "GTEX-13111-1126-SM-5GCMZ",
+    "GTEX-131XE-1526-SM-5KM1A",
+    "GTEX-131XF-1126-SM-5HL8J",
+    "GTEX-131XG-1126-SM-5DUWR",
+    "GTEX-131XW-1826-SM-GIN9T",
+    "GTEX-132AR-2526-SM-5PNVM",
+    "GTEX-132NY-2026-SM-5L3FM",
+    "GTEX-132QS-1626-SM-5K7YZ",
+    "GTEX-1339X-1126-SM-5J2OI",
+    "GTEX-1399R-0926-SM-5J2N8",
+    "GTEX-1399S-1526-SM-5P9JC",
+    "GTEX-1399U-1426-SM-5J1N8",
+    "GTEX-139T6-0826-SM-5J1O2",
+    "GTEX-139YR-1826-SM-5LZXA",
+    "GTEX-13CF3-1726-SM-5LU9E",
+    "GTEX-13D11-2026-SM-5IJBK",
+    "GTEX-13FH7-0626-SM-5KLZD",
+    "GTEX-13FLV-1326-SM-5L3EJ",
+    "GTEX-13FTW-1926-SM-5K7Y4",
+    "GTEX-13N1W-1926-SM-5IJCH",
+    "GTEX-13NYB-1326-SM-5K7Y1",
+    "GTEX-13O21-0726-SM-5L3EG",
+    "GTEX-13O3P-2726-SM-5KM2R",
+    "GTEX-13O61-1226-SM-5KM21",
+    "GTEX-13OVG-1026-SM-5KLZ3",
+    "GTEX-13OVH-1826-SM-5K7YW",
+    "GTEX-13OVJ-1426-SM-5K7Z2",
+    "GTEX-13OVL-2726-SM-5J2MP",
+    "GTEX-13OW6-1626-SM-5IJD5",
+    "GTEX-13OW7-1926-SM-5LUB4",
+    "GTEX-13OW8-2426-SM-9WPNM",
+    "GTEX-13PL7-0526-SM-5J2MQ",
+    "GTEX-13PVQ-1926-SM-5L3GN",
+    "GTEX-13PVR-2026-SM-5P9FH",
+    "GTEX-13QBU-0826-SM-5IJBU",
+    "GTEX-13QIC-2026-SM-5N9G9",
+    "GTEX-13QJ3-1926-SM-5QGQM",
+    "GTEX-13RTJ-1726-SM-GINA7",
+    "GTEX-13RTK-0426-SM-5RQHT",
+    "GTEX-13U4I-1326-SM-5KM25",
+    "GTEX-13VXT-1826-SM-5KM2F",
+    "GTEX-13VXU-1126-SM-5LU3U",
+    "GTEX-13W3W-1826-SM-5IJDE",
+    "GTEX-13X6H-1526-SM-5Q5E2",
+    "GTEX-13X6J-1726-SM-5TDCS",
+    "GTEX-13YAN-1826-SM-5LU3Q",
+    "GTEX-144FL-2626-SM-5TDCW",
+    "GTEX-144GM-1626-SM-5O9AG",
+    "GTEX-145LS-2026-SM-5Q5D7",
+    "GTEX-145LT-1326-SM-5O9AQ",
+    "GTEX-145MF-1526-SM-5LU95",
+    "GTEX-146FH-1926-SM-5Q5B2",
+    "GTEX-148VI-1226-SM-5RQJR",
+    "GTEX-1497J-2126-SM-5NQB8",
+    "GTEX-14AS3-0826-SM-5TDD5",
+    "GTEX-14B4R-0626-SM-5TDDQ",
+    "GTEX-14BIL-1826-SM-5Q59X",
+    "GTEX-14BMU-1026-SM-5RQJ5",
+    "GTEX-14BMV-1526-SM-5PNUU",
+    "GTEX-14C5O-2226-SM-5ZZW7",
+    "GTEX-14DAQ-1626-SM-5S2R1",
+    "GTEX-14DAR-0726-SM-5RQIA",
+    "GTEX-14E1K-1426-SM-5YY8V",
+    "GTEX-14E6C-0726-SM-664NB",
+    "GTEX-14E6E-0826-SM-664N7",
+    "GTEX-14E7W-1926-SM-5S2R9",
+    "GTEX-14ICK-1126-SM-69LOO",
+    "GTEX-14JG1-1826-SM-5YY9Y",
+    "GTEX-14JG6-1026-SM-6LLIF",
+    "GTEX-14PHW-1326-SM-6EU1S",
+    "GTEX-14PHX-0926-SM-5ZZWC",
+    "GTEX-14PJ2-2826-SM-6EU1N",
+    "GTEX-14PJ4-1326-SM-5ZZVM",
+    "GTEX-14PJM-1726-SM-6LLHB",
+    "GTEX-14PJN-0926-SM-6EU19",
+    "GTEX-14PK6-1226-SM-6EU1W",
+    "GTEX-14PKU-1026-SM-6EU12",
+    "GTEX-14PN3-1226-SM-69LOW",
+    "GTEX-14XAO-1326-SM-6EU1A",
+    "GTEX-15CHC-1326-SM-6LLJA",
+    "GTEX-15CHQ-1826-SM-GPRXI",
+    "GTEX-15D1Q-1526-SM-686Z2",
+    "GTEX-15DCE-1526-SM-7KUFD",
+    "GTEX-15DYW-1726-SM-7KUM5",
+    "GTEX-15EO6-0926-SM-6M48N",
+    "GTEX-15ER7-1926-SM-7KUEW",
+    "GTEX-15FZZ-1326-SM-6PANN",
+    "GTEX-15RIE-0526-SM-7KUF9",
+    "GTEX-15RIF-1026-SM-7KUMZ",
+    "GTEX-15SB6-0926-SM-7KUFM",
+    "GTEX-15SHU-1626-SM-6M46B",
+    "GTEX-15SHV-0926-SM-6M46I",
+    "GTEX-15SHW-2026-SM-7KULX",
+    "GTEX-15UF6-2226-SM-6M471",
+    "GTEX-15UF7-0526-SM-H6Q6T",
+    "GTEX-15UKP-2226-SM-H6Q7Z",
+    "GTEX-16A39-1226-SM-7KUEQ",
+    "GTEX-16AAH-0826-SM-7LT9V",
+    "GTEX-16BQI-1726-SM-GRR1K",
+    "GTEX-16GPK-1426-SM-6M47Y",
+    "GTEX-16MT8-1226-SM-6M488",
+    "GTEX-16MTA-0426-SM-GRR3D",
+    "GTEX-16NGA-1226-SM-7KFSD",
+    "GTEX-16NPX-1826-SM-GPRXR",
+    "GTEX-16XZZ-1726-SM-7KULD",
+    "GTEX-178AV-0826-SM-7KUET",
+    "GTEX-17EUY-1226-SM-GQ1E3",
+    "GTEX-17EVQ-1726-SM-7LT9R",
+    "GTEX-17F96-2826-SM-7IGP3",
+    "GTEX-17F98-1826-SM-7DUFK",
+    "GTEX-17F9E-1026-SM-7DUF1",
+    "GTEX-17HGU-1626-SM-9OSVG",
+    "GTEX-17HHE-0826-SM-793A2",
+    "GTEX-17HII-1726-SM-9OSVB",
+    "GTEX-17JCI-1426-SM-7MGW4",
+    "GTEX-17MF6-1726-SM-7LTA3",
+    "GTEX-183FY-1726-SM-7LT9Q",
+    "GTEX-18465-1326-SM-7LT9K",
+    "GTEX-18A66-1626-SM-7LTAF",
+    "GTEX-18A67-2526-SM-7LG5Z",
+    "GTEX-18A6Q-1126-SM-7LG5A",
+    "GTEX-18A7A-2526-SM-7LG6I",
+    "GTEX-18D9A-0426-SM-72D55",
+    "GTEX-1A32A-2026-SM-718AY",
+    "GTEX-1A3MV-1426-SM-72D63",
+    "GTEX-1AMFI-0126-SM-73KZ2",
+    "GTEX-1AX8Z-1826-SM-73KW6",
+    "GTEX-1AX9J-2026-SM-731AV",
+    "GTEX-1AX9K-1026-SM-73KU4",
+    "GTEX-1AYCT-1426-SM-7DUG1",
+    "GTEX-1B8KE-2026-SM-73KYL",
+    "GTEX-1B8KZ-0626-SM-73KWE",
+    "GTEX-1B8L1-1026-SM-79ONW",
+    "GTEX-1B932-1926-SM-79OOA",
+    "GTEX-1B97I-1126-SM-GPI99",
+    "GTEX-1B97J-1426-SM-79OLR",
+    "GTEX-1B996-1726-SM-7IGMW",
+    "GTEX-1BAJH-2226-SM-7IGLK",
+    "GTEX-1C2JI-1326-SM-7IGMX",
+    "GTEX-1C475-0826-SM-793AD",
+    "GTEX-1C4CL-1426-SM-793CT",
+    "GTEX-1C64O-1726-SM-73KW9",
+    "GTEX-1C6VQ-2026-SM-79OOH",
+    "GTEX-1CAMQ-2626-SM-7IGNI",
+    "GTEX-1CAMR-0626-SM-7DHMI",
+    "GTEX-1CAMS-1626-SM-79394",
+    "GTEX-1CB4E-1226-SM-7MKFX",
+    "GTEX-1CB4F-1326-SM-793CW",
+    "GTEX-1CB4I-2026-SM-7DHMG",
+    "GTEX-1CB4J-2326-SM-7EPIF",
+    "GTEX-1E2YA-1926-SM-7P8QH",
+    "GTEX-1EH9U-2326-SM-7P8P5",
+    "GTEX-1EMGI-2026-SM-7RHH3",
+    "GTEX-1EN7A-1526-SM-7MGXC",
+    "GTEX-1EU9M-2126-SM-7P8P7",
+    "GTEX-1F48J-1426-SM-7P8SC",
+    "GTEX-1F5PL-1226-SM-7P8R5",
+    "GTEX-1F75I-1526-SM-7PBYJ",
+    "GTEX-1F88F-1626-SM-7PBZB",
+    "GTEX-1GF9U-1026-SM-ARZNL",
+    "GTEX-1GL5R-1626-SM-9JGGX",
+    "GTEX-1GMR3-1326-SM-7P8TB",
+    "GTEX-1GMR8-1926-SM-H6Q84",
+    "GTEX-1GN1U-1726-SM-9JGFY",
+    "GTEX-1GN1W-2026-SM-7P8TI",
+    "GTEX-1GZ2Q-2926-SM-7PBZL",
+    "GTEX-1GZ4I-1226-SM-7P8TM",
+    "GTEX-1GZHY-1926-SM-9WYUL",
+    "GTEX-1H11D-2026-SM-A9G3C",
+    "GTEX-1H1E6-1426-SM-9QEHO",
+    "GTEX-1H1ZS-1726-SM-9WYUC",
+    "GTEX-1H3VE-1426-SM-9WYSK",
+    "GTEX-1H3VY-2226-SM-9WYU7",
+    "GTEX-1HBPH-1526-SM-ARZNC",
+    "GTEX-1HBPI-0526-SM-ARZNN",
+    "GTEX-1HBPM-1926-SM-GPRXZ",
+    "GTEX-1HC8U-1726-SM-A9SMF",
+    "GTEX-1HCU7-2426-SM-CKZOL",
+    "GTEX-1HCU8-2426-SM-A9SM7",
+    "GTEX-1HCUA-1126-SM-B2LWD",
+    "GTEX-1HFI6-1526-SM-B2LXC",
+    "GTEX-1HFI7-1026-SM-A9G3I",
+    "GTEX-1HKZK-1226-SM-9WYUR",
+    "GTEX-1HSEH-1426-SM-B2LXF",
+    "GTEX-1HSGN-1826-SM-CL54H",
+    "GTEX-1HSMO-1726-SM-A9SKO",
+    "GTEX-1HSMP-1826-SM-E6CHO",
+    "GTEX-1HSMQ-1926-SM-A9G3O",
+    "GTEX-1HT8W-2126-SM-ACKW7",
+    "GTEX-1I1GP-1226-SM-A96SC",
+    "GTEX-1I1GQ-1626-SM-A9SKR",
+    "GTEX-1I1GR-1226-SM-ACKWA",
+    "GTEX-1I1GT-1626-SM-B2LWR",
+    "GTEX-1I1GU-1226-SM-A9SKT",
+    "GTEX-1I4MK-0826-SM-A9G2J",
+    "GTEX-1I6K6-2026-SM-CGQFE",
+    "GTEX-1ICG6-2126-SM-CE6T2",
+    "GTEX-1ICLY-2326-SM-CL53F",
+    "GTEX-1IDFM-1426-SM-GPI9Z",
+    "GTEX-1IDJC-0826-SM-A9SLO",
+    "GTEX-1IDJE-1526-SM-A9SLG",
+    "GTEX-1IDJF-1126-SM-ARU7O",
+    "GTEX-1IDJH-1826-SM-A96T4",
+    "GTEX-1IDJU-1326-SM-ARU7P",
+    "GTEX-1IKJJ-1126-SM-A9G2M",
+    "GTEX-1IKK5-1426-SM-CJI3U",
+    "GTEX-1IKOE-2226-SM-ACKWV",
+    "GTEX-1IKOH-1626-SM-A9SLT",
+    "GTEX-1J1OQ-2326-SM-A96ST",
+    "GTEX-1J1R8-1026-SM-CJI37",
+    "GTEX-1J8Q2-1626-SM-GRR2J",
+    "GTEX-1J8Q3-2126-SM-ARU8O",
+    "GTEX-1J8QM-0826-SM-CJI2P",
+    "GTEX-1JJ6O-1626-SM-CM2RM",
+    "GTEX-1JK1U-1626-SM-CY8HL",
+    "GTEX-1JKYN-1626-SM-ARU8T",
+    "GTEX-1JKYR-1326-SM-ARU8M",
+    "GTEX-1JMLX-2226-SM-CNPOY",
+    "GTEX-1JMPY-0726-SM-CE6RU",
+    "GTEX-1JMQJ-1126-SM-CY8HO",
+    "GTEX-1JMQK-1726-SM-GPIAA",
+    "GTEX-1K2DA-0526-SM-CGQGY",
+    "GTEX-1KAFJ-1726-SM-CY8IC",
+    "GTEX-1KANA-0426-SM-CXZKH",
+    "GTEX-1KANB-1626-SM-CY8I5",
+    "GTEX-1KD4Q-1326-SM-D4P3J",
+    "GTEX-1KXAM-0726-SM-E9U5I",
+    "GTEX-1L5NE-1226-SM-D3L9Q",
+    "GTEX-1LB8K-1526-SM-E9U58",
+    "GTEX-1LBAC-1126-SM-D3L9V",
+    "GTEX-1LG7Y-1626-SM-D4P24",
+    "GTEX-1LG7Z-1126-SM-DIPF2",
+    "GTEX-1LGOU-0926-SM-DIPFT",
+    "GTEX-1LGRB-1526-SM-COH4I",
+    "GTEX-1LH75-2026-SM-EVR5E",
+    "GTEX-1LSVX-1026-SM-EWRO9",
+    "GTEX-1LVA9-2426-SM-EWROM",
+    "GTEX-1LVAM-1326-SM-G8LL8",
+    "GTEX-1LVAN-2126-SM-CNPQ8",
+    "GTEX-1M5QR-0526-SM-EV7AW",
+    "GTEX-1MA7W-0926-SM-DIPFN",
+    "GTEX-1MGNQ-1526-SM-HAV41",
+    "GTEX-1MJK2-2526-SM-E9TJ3",
+    "GTEX-1MJK3-0426-SM-G8LMX",
+    "GTEX-1MUQO-1726-SM-GOQYR",
+    "GTEX-1N5O9-2226-SM-E8VMN",
+    "GTEX-1NHNU-1726-SM-E76R1",
+    "GTEX-1NSGN-1826-SM-EXOJH",
+    "GTEX-1NUQO-1626-SM-HAUYO",
+    "GTEX-1NV5F-2726-SM-F3K64",
+    "GTEX-1NV8Z-2026-SM-E8VMD",
+    "GTEX-1O97I-1826-SM-EXUS9",
+    "GTEX-1OFPY-1326-SM-E76ON",
+    "GTEX-1OKEX-1626-SM-HL11L",
+    "GTEX-1PBJJ-1526-SM-GRR2V",
+    "GTEX-1PDJ9-1526-SM-DTXEV",
+    "GTEX-1PFEY-1026-SM-DTXEZ",
+    "GTEX-1PIEJ-1026-SM-DTXEW",
+    "GTEX-1PIGE-0826-SM-DTXFB",
+    "GTEX-1PPGY-1226-SM-E76OV",
+    "GTEX-1PPH8-1926-SM-DTXDN",
+    "GTEX-1QAET-1526-SM-EWRMW",
+    "GTEX-1QCLZ-1526-SM-EXUSS",
+    "GTEX-1QP28-1626-SM-E76TA",
+    "GTEX-1QP2A-2026-SM-DTX9D",
+    "GTEX-1QP9N-0526-SM-DTX9P",
+    "GTEX-1QPFJ-1426-SM-DTX7W",
+    "GTEX-1QW4Y-0626-SM-E9J2O",
+    "GTEX-1R7EU-1026-SM-EVR4I",
+    "GTEX-1R9JW-1726-SM-F648E",
+    "GTEX-1R9K5-1726-SM-EVR49",
+    "GTEX-1RAZA-1226-SM-E6CQA",
+    "GTEX-1RAZQ-1826-SM-E76P9",
+    "GTEX-1RAZR-1426-SM-EVR4M",
+    "GTEX-1RLM8-0926-SM-EWROD",
+    "GTEX-1RQEC-1826-SM-G8OMJ",
+    "GTEX-1S3DN-1426-SM-EWRNO",
+    "GTEX-1S5ZA-0926-SM-EVR55",
+    "GTEX-1S82P-1626-SM-EVR4Q",
+    "GTEX-1S82U-0326-SM-GQ1DW",
+    "GTEX-1S831-1026-SM-EVR5C",
+    "GTEX-1S83E-1026-SM-EWRO5",
+    "GTEX-U8XE-1326-SM-4E3JK",
+    "GTEX-V1D1-1226-SM-4JBI5",
+    "GTEX-V955-1226-SM-4JBI9",
+    "GTEX-VUSG-1026-SM-4KKZN",
+    "GTEX-W5WG-2726-SM-4LMIC",
+    "GTEX-W5X1-1226-SM-GOQYB",
+    "GTEX-WEY5-1126-SM-4LMIE",
+    "GTEX-WFG7-1226-SM-4LMK2",
+    "GTEX-WFG8-1126-SM-4LVN1",
+    "GTEX-WFJO-0426-SM-4LVM7",
+    "GTEX-WFON-1026-SM-4LVMD",
+    "GTEX-WHSE-1426-SM-4M1XG",
+    "GTEX-WK11-1226-SM-EAZ2V",
+    "GTEX-WQUQ-1826-SM-4M9QP",
+    "GTEX-WVLH-1526-SM-G8W8A",
+    "GTEX-WXYG-1026-SM-4ONCD",
+    "GTEX-WY7C-0826-SM-4ONCG",
+    "GTEX-WYBS-1626-SM-4ONCA",
+    "GTEX-WYJK-2126-SM-4ONDG",
+    "GTEX-WYVS-1026-SM-4SOJW",
+    "GTEX-WZTO-1726-SM-4PQYV",
+    "GTEX-X15G-1026-SM-4PQZF",
+    "GTEX-X3Y1-1126-SM-4PQZ9",
+    "GTEX-X4EP-2026-SM-F21JG",
+    "GTEX-X4LF-0826-SM-4QASC",
+    "GTEX-X5EB-1026-SM-46MVU",
+    "GTEX-X62O-2426-SM-EAZB4",
+    "GTEX-X8HC-1326-SM-46MWB",
+    "GTEX-XBED-1126-SM-48TCF",
+    "GTEX-XBEW-1526-SM-4AT4K",
+    "GTEX-XGQ4-1626-SM-4AT6J",
+    "GTEX-XMK1-1426-SM-GPI8P",
+    "GTEX-XPT6-0926-SM-GPRWU",
+    "GTEX-XPVG-1426-SM-4B668",
+    "GTEX-XQ3S-1026-SM-4BOPJ",
+    "GTEX-XQ8I-1826-SM-4BOOJ",
+    "GTEX-XUW1-1326-SM-4BOO1",
+    "GTEX-XUZC-0526-SM-4BOPF",
+    "GTEX-XV7Q-1226-SM-4BRVT",
+    "GTEX-XXEK-0526-SM-4BRWD",
+    "GTEX-XYKS-1026-SM-4BRVH",
+    "GTEX-Y111-1826-SM-4SOIR",
+    "GTEX-Y114-1126-SM-G8LLW",
+    "GTEX-Y3I4-0926-SM-4TT2B",
+    "GTEX-Y3IK-1326-SM-4YCD8",
+    "GTEX-Y5LM-1226-SM-4VDT6",
+    "GTEX-Y5V5-1526-SM-4VBQ1",
+    "GTEX-Y8E4-1926-SM-4VBPW",
+    "GTEX-Y8LW-0526-SM-4VDS7",
+    "GTEX-Y9LG-0926-SM-4VDS6",
+    "GTEX-YB5E-1026-SM-5IFI2",
+    "GTEX-YB5K-0626-SM-5LUB5",
+    "GTEX-YEC3-2326-SM-DO92F",
+    "GTEX-YEC4-1226-SM-5CVLX",
+    "GTEX-YF7O-1026-SM-5P9IP",
+    "GTEX-YFC4-2126-SM-EXURK",
+    "GTEX-YFCO-0726-SM-5ZZVJ",
+    "GTEX-YJ8A-1426-SM-5PNV7",
+    "GTEX-YJ8O-0326-SM-5RQJW",
+    "GTEX-Z9EW-0326-SM-5CVM8",
+    "GTEX-ZA64-0726-SM-H7OF4",
+    "GTEX-ZAK1-1826-SM-5HL93",
+    "GTEX-ZDTT-1426-SM-HAUZX",
+    "GTEX-ZDYS-0726-SM-4WKGN",
+    "GTEX-ZEX8-1526-SM-4WWBE",
+    "GTEX-ZF29-1426-SM-DO11G",
+    "GTEX-ZF2S-1326-SM-4WWAZ",
+    "GTEX-ZGAY-1526-SM-DO11O",
+    "GTEX-ZLWG-1426-SM-DO11C",
+    "GTEX-ZP4G-1126-SM-4WWCI",
+    "GTEX-ZPCL-1326-SM-57WFN",
+    "GTEX-ZPIC-1926-SM-57WFQ",
+    "GTEX-ZQUD-0626-SM-51MR2",
+    "GTEX-ZT9W-1426-SM-4YCD2",
+    "GTEX-ZTPG-1726-SM-GPRXB",
+    "GTEX-ZTSS-0826-SM-5985L",
+    "GTEX-ZTTD-1226-SM-51MS2",
+    "GTEX-ZV6S-0726-SM-57WFY",
+    "GTEX-ZV7C-1326-SM-A96S4",
+    "GTEX-ZVP2-1426-SM-5NQ7P",
+    "GTEX-ZVZP-1626-SM-5GIDJ",
+    "GTEX-ZY6K-0826-SM-5A5L7",
+    "GTEX-ZYFC-2226-SM-5NQ96",
+    "GTEX-ZYFG-1226-SM-5GIC7",
+    "GTEX-ZYVF-2526-SM-5E45C",
+    "GTEX-ZYW4-1626-SM-5GIE6"
+  ],
+  "tumour_rna": {
+    "path": "../data/oesophageal/rnaseq_all_20260323.zip",
+    "format": "zip_csv",
+    "member": "rnaseq_all_20260323.csv",
+    "url": "https://cog.sanger.ac.uk/cmp/download/rnaseq_all_20260323.zip"
+  },
+  "normal_gct": "../data/oesophageal/gene_reads_adult_gtex_v11_esophagus_gastroesophageal_junction.gct.gz",
+  "normal_gct_url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/counts-by-tissue/gene_reads_adult_gtex_v11_esophagus_gastroesophageal_junction.gct.gz",
+  "normal_attributes": "../data/oesophageal/GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt",
+  "normal_attributes_url": "https://storage.googleapis.com/adult-gtex/annotations/v11/metadata-files/GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt",
+  "gene_metadata": "../data/oesophageal/gene_identifiers_20241212.csv",
+  "gene_metadata_url": "https://cog.sanger.ac.uk/cmp/download/gene_identifiers_20241212.csv",
+  "common_genes": "../data/oesophageal/common_genes.txt",
+  "categories": "../data/crc/categories.json",
+  "table5_source": {
+    "path": "../data/oesophageal/41586_2026_10830_MOESM3_ESM.zip",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10830-y/MediaObjects/41586_2026_10830_MOESM3_ESM.zip",
+    "format": "zip_space_csv",
+    "member": "supplementary_table_5_revision.csv",
+    "member_bytes": 171694934,
+    "field": "is_depleted"
+  },
+  "excluded_sample_library_pairs": [
+    [
+      "HCM-SANG-0291-C15",
+      "v1_1"
+    ],
+    [
+      "HCM-SANG-0299-C15-A",
+      "minLib"
+    ],
+    [
+      "HCM-SANG-0299-C15-B",
+      "minLib"
+    ],
+    [
+      "HCM-SANG-0306-C15",
+      "minLib"
+    ]
+  ]
+}

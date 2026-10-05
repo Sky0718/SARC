@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sarc-release-comparison"
+version = "1.0.0"
+description = "Support-aware release comparison and network prioritisation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ot_release_sensitivity*", "sarc*"]
+
+[tool.setuptools.package-data]
+"sarc.core" = ["r/*.R"]
+"sarc.analysis" = ["r/*.R"]
+"sarc.precision" = ["*.R"]
+"sarc.oesophageal" = ["*.R"]
+
+[tool.setuptools.data-files]
+"share/sarc/config" = ["config/*.json"]
+"share/sarc/docs" = ["docs/release_change_matrix.csv"]

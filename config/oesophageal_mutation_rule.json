@@ -1,0 +1,6 @@
+{
+  "global_FILTER_exact_allowlist": ["PASS", "3"],
+  "included_exact_short_effects": ["missense", "nonsense", "frameshift", "inframe", "ess_splice", "start_lost", "stop_lost"],
+  "included_explicit_verbose_SO_tokens": ["SO:0001578:stop_lost", "SO:0001582:initiator_codon_change"],
+  "excluded_short_effects": ["silent", "3prime_UTR_variant", "5prime_UTR_variant", "3prime_UTR_ess_splice", "5prime_UTR_ess_splice", "intronic", "upstream", "downstream", "nc_variant", "splice_region"]
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "releases": [
+    "25.12",
+    "26.03",
+    "26.06"
+  ],
+  "reference_release": "26.03",
+  "release_pairs": [
+    [
+      "25.12",
+      "26.03"
+    ],
+    [
+      "26.03",
+      "26.06"
+    ]
+  ],
+  "required_datasets": [
+    "association_overall_direct",
+    "association_by_datatype_direct",
+    "association_by_datasource_direct",
+    "disease",
+    "target"
+  ],
+  "dataset_fields": {
+    "association_overall_direct": {
+      "25.12": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "score",
+        "evidence_count": "evidenceCount"
+      },
+      "26.03": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "filter_field": "aggregationType",
+        "filter_value": "overall",
+        "assert_field": "aggregationValue",
+        "assert_value": "None"
+      },
+      "26.06": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "filter_field": "aggregationType",
+        "filter_value": "overall",
+        "assert_field": "aggregationValue",
+        "assert_value": "None"
+      }
+    },
+    "association_by_datatype_direct": {
+      "25.12": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "score",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "datatypeId"
+      },
+      "26.03": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datatypeId"
+      },
+      "26.06": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datatypeId"
+      }
+    },
+    "association_by_datasource_direct": {
+      "25.12": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "score",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "datasourceId"
+      },
+      "26.03": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datasourceId"
+      },
+      "26.06": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datasourceId"
+      }
+    }
+  },
+  "metadata_required_fields": {
+    "disease": [
+      "id",
+      "code",
+      "name",
+      "dbXRefs",
+      "parents",
+      "obsoleteTerms",
+      "obsoleteXRefs",
+      "ancestors",
+      "therapeuticAreas",
+      "ontology.isTherapeuticArea"
+    ],
+    "target": [
+      "id",
+      "approvedSymbol",
+      "approvedName",
+      "biotype",
+      "alternativeGenes",
+      "obsoleteSymbols",
+      "obsoleteNames"
+    ]
+  },
+  "metadata_required_type_families": {
+    "disease": {
+      "id": "string",
+      "code": "string",
+      "name": "string",
+      "dbXRefs": "list",
+      "parents": "list",
+      "obsoleteTerms": "list",
+      "obsoleteXRefs": "list",
+      "ancestors": "list",
+      "therapeuticAreas": "list",
+      "ontology.isTherapeuticArea": "boolean"
+    },
+    "target": {
+      "id": "string",
+      "approvedSymbol": "string",
+      "approvedName": "string",
+      "biotype": "string",
+      "alternativeGenes": "list",
+      "obsoleteSymbols": "list",
+      "obsoleteNames": "list"
+    }
+  },
+  "disease_mapping": {
+    "allowed_primary_namespaces": [
+      "MONDO",
+      "EFO",
+      "Orphanet",
+      "DOID"
+    ],
+    "authority_required_for_namespaces": [
+      "EFO"
+    ],
+    "accepted_authority_prefixes": [
+      "MONDO",
+      "DOID",
+      "Orphanet",
+      "ORPHA",
+      "ICD10",
+      "ICD10CM",
+      "ICD10WHO",
+      "ICD11",
+      "SNOMEDCT",
+      "SCTID",
+      "NCIT",
+      "NCIt"
+    ],
+    "reference_therapeutic_areas": [
+      "EFO_0000319",
+      "EFO_0000540",
+      "EFO_0000618",
+      "EFO_0001379",
+      "EFO_0005741",
+      "EFO_0005803",
+      "EFO_0009690",
+      "EFO_0010282",
+      "EFO_0010285",
+      "MONDO_0002025",
+      "MONDO_0021205",
+      "MONDO_0024458",
+      "MONDO_0045024",
+      "OTAR_0000006",
+      "OTAR_0000009",
+      "OTAR_0000010",
+      "OTAR_0000014",
+      "OTAR_0000017",
+      "OTAR_0000018",
+      "OTAR_0000020"
+    ],
+    "mapping_precedence": [
+      "EXACT_ID",
+      "EXPLICIT_REPLACEMENT",
+      "EXPLICIT_CROSS_REFERENCE",
+      "ONE_TO_ONE_CANONICAL",
+      "EXCLUDE"
+    ],
+    "accepted_statuses": [
+      "EXACT_ID",
+      "EXPLICIT_REPLACEMENT",
+      "EXPLICIT_CROSS_REFERENCE",
+      "ONE_TO_ONE_CANONICAL"
+    ],
+    "forbidden_primary_statuses": [
+      "AMBIGUOUS_ONE_TO_MANY",
+      "AMBIGUOUS_MANY_TO_ONE",
+      "LABEL_ONLY_CANDIDATE",
+      "UNRESOLVED",
+      "EXCLUDED_ENTITY_TYPE"
+    ],
+    "label_only_primary_mapping": false,
+    "one_to_many_primary_mapping": false,
+    "many_to_one_primary_mapping": false
+  },
+  "target_mapping": {
+    "primary_identifier": "Ensembl_gene_identifier",
+    "accepted_statuses": [
+      "EXACT_ID"
+    ],
+    "symbol_only_primary_mapping": false,
+    "stable_entity_fields": [
+      "source_target_id",
+      "source_approved_symbol",
+      "source_approved_name",
+      "source_biotype"
+    ]
+  },
+  "association_states": [
+    "PRESENT_POSITIVE",
+    "PRESENT_ZERO",
+    "PRESENT_NULL",
+    "ABSENT_PAIR",
+    "MAPPING_AFFECTED",
+    "SCHEMA_INCOMPARABLE"
+  ],
+  "association_support": {
+    "score_bounds": [
+      0.0,
+      1.0
+    ],
+    "overall_primary_rule": "finite_score_greater_than_zero_and_evidence_count_at_least_one",
+    "zero_score_rule": "quarantined_present_state_not_absence",
+    "null_rule": "present_null_not_absence",
+    "three_release_score_support": "primary",
+    "pair_specific_fixed_ranking_support": "primary",
+    "three_release_fixed_ranking_support": "supplementary",
+    "release_native_rule": "eligible_positive_associations_in_each_release",
+    "mapping_affected_rule": "reported_separately"
+  },
+  "ranking_panels": {
+    "primary_minimum_targets": 30,
+    "lower_sensitivity_minimum_targets": 20,
+    "higher_sensitivity_minimum_targets": 50,
+    "minimum_distinct_scores_per_release": 2,
+    "rank_method": "average_for_exact_ties",
+    "top_k": [
+      5,
+      10,
+      20
+    ],
+    "top_k_boundary_ties": "include_all",
+    "top_ranked_set": "include_all_equal_maximum_scores"
+  },
+  "stable_entity": {
+    "disease_fields": [
+      "source_disease_id",
+      "source_label",
+      "source_entity_type",
+      "canonical_therapeutic_area_ids"
+    ],
+    "target_fields": [
+      "source_target_id",
+      "source_approved_symbol",
+      "source_approved_name",
+      "source_biotype"
+    ],
+    "require_exact_mapping_across_all_releases": true
+  },
+  "evidence_domain": {
+    "datatype_id": "genetic_association",
+    "datasource_id": "gwas_credible_sets",
+    "eligibility_rule": "finite_release_provided_score_within_bounds",
+    "fallback": null,
+    "denominator_rule": "independent_from_overall_score_support"
+  },
+  "therapeutic_areas": {
+    "reference_release": "26.03",
+    "primary_rule": "stable_multi_membership_fractional_counting",
+    "unstable_membership": "excluded_from_primary_area_contrasts_but_retained_overall",
+    "fractional_weight_rule": "one_divided_by_number_of_stable_areas"
+  },
+  "exclusion_reason_precedence": [
+    "SCHEMA_INCOMPARABLE",
+    "EXCLUDED_ENTITY_TYPE",
+    "AMBIGUOUS_ONE_TO_MANY",
+    "AMBIGUOUS_MANY_TO_ONE",
+    "LABEL_ONLY_CANDIDATE",
+    "UNRESOLVED_MAPPING",
+    "TARGET_IDENTIFIER_NOT_EXACT",
+    "PRESENT_NULL",
+    "SCORE_NONFINITE",
+    "SCORE_OUT_OF_BOUNDS",
+    "PRESENT_ZERO",
+    "MISSING_OR_NONPOSITIVE_EVIDENCE_COUNT",
+    "FEWER_THAN_MINIMUM_FIXED_TARGETS",
+    "DEGENERATE_OLD_SCORE_DISTRIBUTION",
+    "DEGENERATE_NEW_SCORE_DISTRIBUTION",
+    "UNSTABLE_THERAPEUTIC_AREA_MEMBERSHIP"
+  ],
+  "determinism": {
+    "sort_release_order": [
+      "25.12",
+      "26.03",
+      "26.06"
+    ],
+    "parquet_compression": "ZSTD",
+    "parquet_row_group_size": 100000,
+    "large_output_hash_partitions": 8,
+    "large_output_partition_order": "frozen_natural_partition_then_unsigned_duckdb_hash_modulo_then_row_key",
+    "csv_line_terminator": "LF"
+  },
+  "resources": {
+    "default_threads": 8,
+    "default_memory_limit": "8GB",
+    "duckdb_temp_directory": "data/interim/support_construction_duckdb_tmp",
+    "minimum_free_gib": 20
+  },
+  "outputs": {
+    "disease_crosswalk": "data/derived/disease_crosswalk.csv",
+    "target_crosswalk": "data/derived/target_crosswalk.csv",
+    "therapeutic_area_mapping": "data/derived/therapeutic_area_mapping.csv",
+    "canonical_associations": "data/derived/canonical_associations.parquet",
+    "association_state_transitions": "data/derived/association_state_transitions.parquet",
+    "three_release_score_support": "data/derived/three_release_score_support.parquet",
+    "fixed_ranking_panel_registry": "data/derived/fixed_ranking_panel_registry.csv",
+    "fixed_ranking_panel_members": "data/derived/fixed_ranking_panel_members.parquet",
+    "release_native_panel_registry": "data/derived/release_native_panel_registry.csv",
+    "release_native_panel_members": "data/derived/release_native_panel_members.parquet",
+    "entrant_exit_table": "data/derived/entrant_exit_table.parquet",
+    "evidence_domain_support": "data/derived/evidence_domain_support.parquet",
+    "evidence_domain_panel_registry": "data/derived/evidence_domain_panel_registry.csv",
+    "exclusion_registry": "data/derived/exclusion_registry.parquet",
+    "support_flow": "data/derived/support_flow.csv"
+  }
+}

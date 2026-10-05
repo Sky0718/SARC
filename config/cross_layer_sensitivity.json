@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "disease_ranking_panels": "data/derived/disease_ranking_panels.csv",
+    "fixed_ranking_panel_registry": "data/derived/fixed_ranking_panel_registry.csv",
+    "fixed_ranking_panel_members": "data/derived/fixed_ranking_panel_members.parquet",
+    "release_native_panel_members": "data/derived/release_native_panel_members.parquet",
+    "evidence_domain_support": "data/derived/evidence_domain_support.parquet",
+    "evidence_domain_panel_registry": "data/derived/evidence_domain_panel_registry.csv",
+    "disease_crosswalk": "data/derived/disease_crosswalk.csv",
+    "target_crosswalk": "data/derived/target_crosswalk.csv",
+    "therapeutic_area_mapping": "data/derived/therapeutic_area_mapping.csv",
+    "release_change_matrix": "docs/release_change_matrix.csv"
+  },
+  "input_reading": {
+    "release_change_matrix": {
+      "expected_header": [
+        "release",
+        "category",
+        "documented_change",
+        "analytical_relevance",
+        "evidence_status",
+        "source_url",
+        "source_snapshot",
+        "retrieved_at_utc",
+        "causality_boundary"
+      ]
+    }
+  },
+  "input_contract": {
+    "disease_ranking_panels": [
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_label",
+      "canonical_therapeutic_area_ids",
+      "fixed_target_count",
+      "kendall_tau_b",
+      "spearman_correlation",
+      "p90_normalised_rank_displacement",
+      "fixed_top_5_jaccard",
+      "fixed_top_10_jaccard",
+      "fixed_top_20_jaccard",
+      "old_fixed_top_ranked_target_ids",
+      "new_fixed_top_ranked_target_ids",
+      "fixed_top_ranked_set_changed",
+      "fixed_top_ranked_change_reason",
+      "native_top_10_jaccard",
+      "native_top_ranked_set_changed",
+      "native_top_ranked_change_reason",
+      "native_top_ranked_entrant_count",
+      "native_top_ranked_exit_count",
+      "mapping_stability",
+      "stable_entity_fixed_panel_eligible"
+    ],
+    "fixed_ranking_panel_registry": [
+      "support_name",
+      "release_pair",
+      "canonical_disease_id",
+      "canonical_label",
+      "canonical_therapeutic_area_ids",
+      "fixed_target_count",
+      "old_distinct_score_count",
+      "new_distinct_score_count",
+      "primary_panel_eligible",
+      "stable_fixed_target_count",
+      "stable_old_distinct_score_count",
+      "stable_new_distinct_score_count",
+      "stable_panel_eligible"
+    ],
+    "fixed_ranking_panel_members": [
+      "support_name",
+      "release_pair",
+      "old_release",
+      "new_release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "old_score",
+      "new_score",
+      "stable_entity_member",
+      "canonical_therapeutic_area_ids"
+    ],
+    "release_native_panel_members": [
+      "release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score",
+      "stable_entity_member",
+      "canonical_therapeutic_area_ids"
+    ],
+    "evidence_domain_support": [
+      "endpoint_level",
+      "endpoint_id",
+      "release",
+      "canonical_disease_id",
+      "canonical_target_id",
+      "score",
+      "association_state",
+      "domain_support_eligible",
+      "stable_entity_eligible",
+      "canonical_therapeutic_area_ids",
+      "score_source_dataset",
+      "source_object_relative_path"
+    ],
+    "evidence_domain_panel_registry": [
+      "endpoint_level",
+      "endpoint_id",
+      "release_pair",
+      "canonical_disease_id",
+      "fixed_target_count",
+      "old_distinct_score_count",
+      "new_distinct_score_count",
+      "panel_eligible",
+      "canonical_therapeutic_area_ids"
+    ],
+    "disease_crosswalk": [
+      "release",
+      "source_disease_id",
+      "canonical_disease_id",
+      "canonical_label",
+      "primary_support_eligible",
+      "stable_entity_eligible"
+    ],
+    "target_crosswalk": [
+      "release",
+      "source_target_id",
+      "canonical_target_id",
+      "primary_support_eligible",
+      "stable_entity_eligible"
+    ],
+    "therapeutic_area_mapping": [
+      "release",
+      "canonical_disease_id",
+      "canonical_therapeutic_area_id",
+      "canonical_therapeutic_area_label",
+      "therapeutic_area_stability",
+      "primary_area_contrast_eligible",
+      "fractional_weight"
+    ],
+    "release_change_matrix": [
+      "release",
+      "category",
+      "documented_change",
+      "analytical_relevance",
+      "evidence_status",
+      "source_url",
+      "source_snapshot",
+      "causality_boundary"
+    ]
+  },
+  "release_pairs": [
+    {
+      "label": "25.12_to_26.03",
+      "old_release": "25.12",
+      "new_release": "26.03"
+    },
+    {
+      "label": "26.03_to_26.06",
+      "old_release": "26.03",
+      "new_release": "26.06"
+    }
+  ],
+  "scores": {
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "overall_requires_positive": true,
+    "evidence_domain_allows_zero": true,
+    "quantile_method": "linear",
+    "large_diagnostic_change_threshold": 0.05
+  },
+  "ranking": {
+    "support_name": "PAIR_SPECIFIC_PERSISTENT",
+    "minimum_targets": 30,
+    "minimum_distinct_scores_per_release": 2,
+    "rank_method": "average_for_exact_ties",
+    "normalised_displacement": "absolute_rank_difference_divided_by_panel_size_minus_one",
+    "top_set_cutoffs": [
+      5,
+      10,
+      20
+    ],
+    "top_set_boundary_ties": "include_all",
+    "top_ranked_set": "include_all_equal_maximum_scores",
+    "minimum_positive_top_set_score": 0.0
+  },
+  "stable_entity": {
+    "member_field": "stable_entity_member",
+    "require_stable_disease_and_target": true,
+    "fixed_support_rebuilt_independently": true,
+    "release_native_support_rebuilt_independently": true,
+    "denominator_name": "STABLE_ENTITY_FIXED",
+    "removal_label": "entity_stability_control_removed_fraction"
+  },
+  "evidence_domain": {
+    "endpoint_level": "DATATYPE",
+    "endpoint_id": "genetic_association",
+    "datasource_decomposition": "gwas_credible_sets",
+    "fallback": null,
+    "support_rebuilt_independently": true,
+    "denominator_name": "GENETIC_ASSOCIATION_FIXED",
+    "keep_separate_from_overall": true,
+    "do_not_combine_scores": true
+  },
+  "diagnostic_datasources": {
+    "dataset_name": "association_by_datasource_direct",
+    "fields": {
+      "25.12": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "score",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "datasourceId"
+      },
+      "26.03": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datasourceId"
+      },
+      "26.06": {
+        "disease_id": "diseaseId",
+        "target_id": "targetId",
+        "score": "associationScore",
+        "evidence_count": "evidenceCount",
+        "endpoint_field": "aggregationValue",
+        "filter_field": "aggregationType",
+        "filter_value": "datasourceId"
+      }
+    },
+    "families": [
+      {
+        "family": "LITERATURE",
+        "release_endpoints": {
+          "25.12": "europepmc",
+          "26.03": "europepmc",
+          "26.06": "europepmc"
+        },
+        "comparable_release_pairs": [
+          "25.12_to_26.03",
+          "26.03_to_26.06"
+        ]
+      },
+      {
+        "family": "CLINICAL",
+        "release_endpoints": {
+          "25.12": "chembl",
+          "26.03": "clinical_precedence",
+          "26.06": "clinical_precedence"
+        },
+        "comparable_release_pairs": [
+          "26.03_to_26.06"
+        ]
+      }
+    ],
+    "definition_break_status": "DEFINITION_BREAK_CONTEXT_ONLY",
+    "interpretation": "diagnostic_co_occurrence_not_causal_attribution",
+    "external_trial_reprocessing": false,
+    "composite_score": null
+  },
+  "therapeutic_areas": {
+    "reference_release": "26.03",
+    "stability_value": "STABLE",
+    "primary_area_contrast_eligible": true,
+    "fractional_counting": true
+  },
+  "release_note_alignment": {
+    "allowed_classes": [
+      "DIRECTLY OBSERVABLE IN RELEASE OUTPUT",
+      "POSSIBLY RELEVANT",
+      "INFRASTRUCTURE ONLY",
+      "NOT TESTED"
+    ],
+    "directly_observable_categories": [
+      "association scoring",
+      "dataset schema",
+      "disease ontology and mapping",
+      "target identifiers"
+    ],
+    "possibly_relevant_categories": [
+      "clinical mining",
+      "drug data",
+      "evidence source additions/removals",
+      "genetics",
+      "literature mining"
+    ],
+    "infrastructure_categories": [
+      "infrastructure-only change"
+    ],
+    "not_tested_categories": [
+      "uncertain relevance"
+    ],
+    "no_specific_change_status": "no_specific_change_identified",
+    "mechanism_attribution": "NOT_ASSIGNED"
+  },
+  "persistence": {
+    "allowed_classes": [
+      "PERSISTS_STABLE_ENTITY",
+      "DISAPPEARS_AFTER_MAPPING_CONTROL",
+      "PERSISTS_EVIDENCE_DOMAIN",
+      "OVERALL_ONLY",
+      "DOMAIN_ONLY",
+      "INSUFFICIENT_DOMAIN_SUPPORT",
+      "MIXED"
+    ],
+    "descriptive_not_causal": true
+  },
+  "outputs": {
+    "stable_entity_pair_revisions": "data/derived/cross_layer_sensitivity_stable_entity_pair_revisions.parquet",
+    "stable_entity_score_summary": "data/derived/cross_layer_sensitivity_stable_entity_score_summary.csv",
+    "stable_entity_ranking_metrics": "data/derived/cross_layer_sensitivity_stable_entity_ranking_metrics.csv",
+    "stable_entity_native_metrics": "data/derived/cross_layer_sensitivity_stable_entity_native_metrics.csv",
+    "evidence_domain_pair_revisions": "data/derived/cross_layer_sensitivity_evidence_domain_pair_revisions.parquet",
+    "evidence_domain_score_summary": "data/derived/cross_layer_sensitivity_evidence_domain_score_summary.csv",
+    "evidence_domain_ranking_metrics": "data/derived/cross_layer_sensitivity_evidence_domain_ranking_metrics.csv",
+    "diagnostic_target_context": "data/derived/cross_layer_sensitivity_diagnostic_target_context.parquet",
+    "literature_clinical_diagnostics": "data/derived/cross_layer_sensitivity_literature_clinical_diagnostics.csv",
+    "release_note_alignment": "data/derived/cross_layer_sensitivity_release_note_alignment.csv",
+    "sensitivity_comparison": "data/derived/cross_layer_sensitivity_sensitivity_comparison.csv",
+    "persistence_registry": "data/derived/cross_layer_sensitivity_persistence_registry.csv"
+  },
+  "determinism": {
+    "ordered_exports": true,
+    "parquet_compression": "ZSTD",
+    "parquet_row_group_size": 100000,
+    "csv_line_terminator": "LF"
+  },
+  "resources": {
+    "threads": 4,
+    "export_threads": 1,
+    "memory_limit": "8GB",
+    "minimum_free_gib": 20,
+    "temporary_parent": "data/interim/cross_layer_sensitivity_build_tmp",
+    "duckdb_temporary_directory": "data/interim/cross_layer_sensitivity_duckdb_tmp"
+  }
+}

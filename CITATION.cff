@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the software and the corresponding study when using these methods."
+title: "SARC: support-aware release comparison"
+type: software
+version: "1.0.0"
+authors:
+  - name: "Anonymous"
+repository-code: "https://github.com/Sky0718/SARC"
+license: Apache-2.0
+abstract: >-
+  Computational methods for support-aware comparison of biomedical resource
+  releases, controlled network interventions, algorithm comparisons and
+  functional evaluation.
+keywords:
+  - biomedical knowledgebase
+  - release sensitivity
+  - network prioritisation
+  - functional evaluation

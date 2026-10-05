@@ -1,0 +1,6 @@
+arguments = commandArgs(trailingOnly = TRUE)
+stopifnot(length(arguments) == 2L)
+source(file.path(arguments[[2L]], 'certificate.R'))
+source(file.path(arguments[[2L]], 'solver.R'))
+source(file.path(arguments[[2L]], 'batch.R'))
+run_precision_batch(jsonlite::read_json(arguments[[1L]], simplifyVector = TRUE))

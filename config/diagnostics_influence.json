@@ -1,0 +1,8 @@
+{
+  "operation": "influence",
+  "inputs": {
+    "models": "../results/crc_models.json",
+    "labels": "../data/crc/selected_labels.json"
+  },
+  "output": "../results/crc_influence.json"
+}

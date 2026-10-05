@@ -1,0 +1,8 @@
+{
+  "operation": "native-menus",
+  "inputs": {
+    "pro": "../results/crc_prodigy_allocations.json",
+    "dawn": "../results/crc_precision/allocations.json"
+  },
+  "output": "../results/crc_native_menus.json"
+}

@@ -1,0 +1,13 @@
+{
+  "operation": "prepare",
+  "inputs": "../results/esca_inputs/inputs.json",
+  "common_genes": "../data/oesophageal/common_genes.txt",
+  "native_genes_H0": "../data/oesophageal/native_genes_H0.txt",
+  "native_genes_H1": "../data/oesophageal/native_genes_H1.txt",
+  "edges_G0": "../data/oesophageal/edges_G0.tsv",
+  "edges_G1": "../data/oesophageal/edges_G1.tsv",
+  "normalise_source": "../external/TARGET-SL/scripts/DawnRank/DawnNormalize.R",
+  "rscript": "Rscript",
+  "r_libraries": [],
+  "output": "../results/esca_prepared"
+}

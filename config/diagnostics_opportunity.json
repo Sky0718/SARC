@@ -1,0 +1,5 @@
+{
+  "operation": "opportunity",
+  "inputs": {"records": "../results/crc_menu_records.json"},
+  "output": "../results/crc_opportunity.json"
+}

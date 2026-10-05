@@ -1,0 +1,10 @@
+arguments = commandArgs(trailingOnly = TRUE)
+stopifnot(length(arguments) == 1L)
+script_argument = commandArgs()[grepl("^--file=", commandArgs())]
+script_path = sub("^--file=", "", script_argument[[1L]])
+module = dirname(normalizePath(script_path, winslash = "/", mustWork = TRUE))
+specification = jsonlite::read_json(arguments[[1L]], simplifyVector = TRUE)
+suppressPackageStartupMessages(library(Matrix))
+source(file.path(module, "..", "core", "r", "common.R"))
+source(file.path(module, "preparation.R"))
+prepare_oesophageal(specification)

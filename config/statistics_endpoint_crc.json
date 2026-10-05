@@ -1,0 +1,7 @@
+{
+  "operation": "endpoint-sensitivity",
+  "paired_updates": "../results/crc_paired_updates/paired_updates.json",
+  "donor_order": "../results/crc_draw_plan/donor_order.json",
+  "draws": "../results/crc_draw_plan/draw_indices.json",
+  "output": "../results/crc_endpoint_sensitivity"
+}

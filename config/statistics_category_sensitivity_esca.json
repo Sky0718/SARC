@@ -1,0 +1,8 @@
+{
+  "operation": "category-sensitivity",
+  "context": "ESCA",
+  "model_levels": "../results/esca_categories/model_category_levels.csv",
+  "donor_order": "../results/esca_evaluation/composition.json",
+  "draws": "../results/esca_evaluation/DONOR_DRAWS.npy",
+  "output": "../results/esca_category_sensitivity"
+}

@@ -1,0 +1,16 @@
+{
+  "operation": "degree-menu",
+  "inputs": {
+    "models": "../results/crc_models.json",
+    "edges": {
+      "mapping": {
+        "G0": {"path": "../data/crc/edges_G0.tsv", "format": "tsv"},
+        "G1": {"path": "../data/crc/edges_G1.tsv", "format": "tsv"}
+      }
+    },
+    "domain": "../data/crc/common_genes.json",
+    "native": "../results/crc_native_menus.json",
+    "labels": "../data/crc/selected_labels.json"
+  },
+  "output": "../results/crc_degree_menu.json"
+}

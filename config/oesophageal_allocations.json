@@ -1,0 +1,6 @@
+{
+  "operation": "allocations",
+  "inputs": "../results/esca_inputs/inputs.json",
+  "computation": "../results/esca_computation",
+  "output": "../results/esca_allocations"
+}

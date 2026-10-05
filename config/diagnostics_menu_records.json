@@ -1,0 +1,9 @@
+{
+  "operation": "menu-records",
+  "inputs": {
+    "pro": "../results/crc_prodigy_allocations.json",
+    "dawn": "../results/crc_precision/allocations.json",
+    "certificates": {"path": "../results/crc_precision/cutoff_certificates.csv", "format": "csv"}
+  },
+  "output": "../results/crc_menu_records.json"
+}

@@ -1,0 +1,8 @@
+{
+  "operation": "prodigy-allocations",
+  "inputs": {
+    "scope": "../data/crc/prodigy_scope.json",
+    "carriers": "../results/crc_prodigy_carriers.json"
+  },
+  "output": "../results/crc_prodigy_allocations.json"
+}

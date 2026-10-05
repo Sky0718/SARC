@@ -1,0 +1,5 @@
+{
+  "operation": "signed-accounting",
+  "donor_allocation": "../results/component_score_reference/donor_allocation.csv",
+  "output": "../results/score_signed_accounting"
+}

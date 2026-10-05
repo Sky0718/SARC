@@ -1,0 +1,5 @@
+{
+  "operation": "evaluate",
+  "freeze": "../results/esca_freeze/coefficient_freeze.json",
+  "output": "../results/esca_evaluation"
+}

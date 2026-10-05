@@ -1,0 +1,5 @@
+{
+  "operation": "freeze",
+  "allocations": "../results/precision_components/allocations.json",
+  "output": "../results/component_freeze"
+}
